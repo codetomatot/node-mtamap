@@ -1,6 +1,6 @@
 import "./data.js";
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiYm9iLXVzZXIiLCJhIjoiY2tycDM0MjE4MGZsejJ1bXcwczNka3hnNSJ9.JlXSoboCjRDRyUaoHDeUSw';
+mapboxgl.accessToken = 'mapbox-token';
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10'
