@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "stop": "node index.js",
-    "build": "browserify --outfile ~/Desktop/JS-map-project/node-map-proj/main/data.js --standalone dbundle index.js"
+    "build": "browserify --outfile --standalone dbundle index.js"
   },
   "keywords": [],
   "author": "",
