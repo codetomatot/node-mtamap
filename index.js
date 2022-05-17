@@ -2,10 +2,12 @@ var GtfsRealtimeBindings = require('gtfs-realtime-bindings');
 var request = require('request');
 var http = require('http');
 var axios = require('axios');
-// const req = require('express/lib/request');
-// const { header } = require('express/lib/request');
+const fs = require('fs');
+const dotenv = require('dotenv');
+dotenv.config();
 
 console.log("from index.js");
+console.log(process.env.MAPBOX);
 
 let tgd = "";
 
@@ -40,7 +42,7 @@ function getData(dataIds, dataLocs, dataNames) {
                 var datajson = {
                   'trainId': en.tripUpdate.trip.tripId,
                   'arrival': convertFromPOSIX(en.tripUpdate.stopTimeUpdate[i].arrival.time),
-                  'stopId': dataIds.filter(function(id) {return id.includes(en.tripUpdate.stopTimeUpdate[i].stopId);}),
+                  'stopId': dataIds.filter(function(id) {return id.includes(en.tripUpdate.stopTimeUpdate[i].stopId)}),
                   'stop_location': dataFilter(dataLocs, dataIds, en.tripUpdate.stopTimeUpdate[i].stopId),
                   'stop_name': dataFilter(dataNames, dataIds, en.tripUpdate.stopTimeUpdate[i].stopId),
                 }
@@ -112,9 +114,12 @@ function dataFilter(data, ids, currentId) {
 
 function _ot009() {
   console.log("from ot: running.");
-  // setInterval(readStopsData, 60000);
+  // console.log(process.env.MAPBOX_ACCESSTOKEN);
   return "from ot: returnd";
 }
 setInterval(readStopsData, 10000);
 
 exports._ot009 = _ot009();
+// module.exports = {
+//   token: process.env.MAPBOX_ACCESSTOKEN,
+// }

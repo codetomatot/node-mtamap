@@ -5,8 +5,8 @@ const fs = require('fs');
 const router = express.Router();
 app = express();
 const https = require('https');
-
-// let randomNum;
+const dotenv = require('dotenv');
+dotenv.config();
 
 app.use(express.static(__dirname+"/main"));
 console.log(__dirname);
@@ -24,6 +24,7 @@ app.get('/stopsdump', (req, res) => {
 });
 app.get('/stopsmk', (req,res) => {
     res.sendFile(path.join(__dirname+'/rrdata.json'));
+    res.se
 });
 app.post('/stopsmk', (req,res) => {
     res.sendStatus(200);
@@ -41,6 +42,7 @@ app.post('/stopsmk', (req,res) => {
 
 http.get('http://localhost:8080/stopsmk', (res) => {
     console.log(res.statusCode);
+    // console.log(process.env.MAPBOX);
 })
 // app.use('/', router);
 app.listen(8080);

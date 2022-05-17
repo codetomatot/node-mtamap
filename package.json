@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "stop": "node index.js",
-    "build": "browserify --outfile --standalone dbundle index.js"
+    "build": "browserify --outfile ~/Desktop/JS-map-project/node-map-proj/main/data.js --standalone dbundle index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +16,11 @@
   "dependencies": {
     "axios": "^0.26.1",
     "browserify": "^17.0.0",
+    "dotenv": "^16.0.1",
     "express": "^4.17.3",
     "gtfs-realtime-bindings": "^0.0.6",
     "http": "^0.0.1-security",
+    "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "mapbox-gl": "^2.7.0",
     "path": "^0.12.7",
