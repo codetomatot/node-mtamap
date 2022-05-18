@@ -85,12 +85,14 @@ setInterval(() => {
                     const stoptp = document.getElementsByClassName("stop");
                     const timetp = document.getElementsByClassName("time");
 
-                    // idtp[i].innerText = data[key][i].trainId;
+                    idtp[i].innerText = data[key][i].trainId;
                     // stoptp[i].innerText = data[key][i].stop_name;
-                    // timetp[i].innerText = data[key][i].arrival;
+                    timetp[i].innerText = data[key][i].arrival;
                     // for(let j = 0; j < data[key][i].; i++) {
                     //     //
                     // }
+
+
                     // if(tester2.length < (maintab.childElementCount-1)) {
                     //     let toRm = document.querySelector(".t"+(tester2.length).toString()+"t");
                     //     maintab.removeChild(toRm);
@@ -106,8 +108,6 @@ setInterval(() => {
                     // }
                 }
         });
-
-        
     });
 
 }, 15000);
