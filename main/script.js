@@ -36,19 +36,17 @@ function toStart_toRecover() {
     let fcall = finalRequest();
     let counter = 0;
     fcall.then((data) => {
-        let tofind = "046375_Q..N";
+        // let tofind = "043300_Q..N";
         Object.keys(data).map((key, index) => {
-            if(key == tofind) {
-                let tester = Object.values(data[key]);
-                console.log(tester);
-                for(let i = 0; i < tester.length; i++) {
+            // if(key == tofind) {
+                for(let i = 0; i < data[key].length; i++) {
                     const nel = document.createElement("div");
                     const pid = document.createElement("p");
                     const pstop = document.createElement("p");
                     const ptime = document.createElement("p");
-                    pid.innerText = tester[i].trainId;
-                    pstop.innerText = tester[i].stop_name;
-                    ptime.innerText = tester[i].arrival;
+                    pid.innerText = data[key][i].trainId;
+                    pstop.innerText = data[key][i].stop_name;
+                    ptime.innerText = data[key][i].arrival;
 
                     nel.className = "card t"+counter.toString()+"t"; nel.id = "card";
                     pid.className = "pid";
@@ -62,9 +60,12 @@ function toStart_toRecover() {
                     maintab.appendChild(nel);
                     counter++;
                 }
-            } else {
-                console.log("for all trips this key does not exist");
-            }
+                const divider = document.createElement("div");
+                divider.className = "divide";
+                maintab.appendChild(divider);
+            // } else {
+            //     console.log("for all trips this key does not exist");
+            // }
         });
     });
 }
@@ -74,38 +75,36 @@ setInterval(() => {
     console.log(dbundle._ot009);
     let dat = finalRequest();
     dat.then((data) => {
-        let tofind = "046375_Q..N";
+        // let tofind = "043300_Q..N";
         Object.keys(data).map((key, index) => {
-            if(key == tofind) {
-                let tester2 = Object.values(data[key]);
-                for(let i = 0; i < tester2.length; i++) {
-                    console.log("current len: "+tester2.length);
-                    console.log(tester2);
+            // console.log(data[key]);
+                for(let i = 0; i < data[key].length; i++) {
+                    // console.log("current len: "+tester2.length);
                     let i_d = document.getElementById("card");
                     const idtp = document.getElementsByClassName("pid");
                     const stoptp = document.getElementsByClassName("stop");
                     const timetp = document.getElementsByClassName("time");
-        
-        
-                    idtp[i].innerText = tester2[i].trainId;
-                    stoptp[i].innerText = tester2[i].stop_name;
-                    timetp[i].innerText = tester2[i].arrival;
-                    console.log("changes made");
-                    if(tester2.length < (maintab.childElementCount-1)) {
-                        let toRm = document.querySelector(".t"+(tester2.length).toString()+"t");
-                        maintab.removeChild(toRm);
-                        console.log("[*]   extra removed");
-                    } else if(tester2.length > (maintab.childElementCount-1)) {
-                        toStart_toRecover();
-                        console.log("resetting...");
-                    }
-                    if((tester2.length == 1) || (idtp[i] == undefined || stoptp[i] == undefined || timetp[i] == undefined)) {
-                        maintab.removeChild(i_d);
-                        // toStart_toRecover();s
-                        console.log("supposedly reset");
-                    }
+
+                    // idtp[i].innerText = data[key][i].trainId;
+                    // stoptp[i].innerText = data[key][i].stop_name;
+                    // timetp[i].innerText = data[key][i].arrival;
+                    // for(let j = 0; j < data[key][i].; i++) {
+                    //     //
+                    // }
+                    // if(tester2.length < (maintab.childElementCount-1)) {
+                    //     let toRm = document.querySelector(".t"+(tester2.length).toString()+"t");
+                    //     maintab.removeChild(toRm);
+                    //     console.log("[*]   extra removed");
+                    // } else if(tester2.length > (maintab.childElementCount-1)) {
+                    //     toStart_toRecover();
+                    //     console.log("resetting...");
+                    // }
+                    // if((tester2.length == 1) || (idtp[i] == undefined || stoptp[i] == undefined || timetp[i] == undefined)) {
+                    //     maintab.removeChild(i_d);
+                    //     // toStart_toRecover();s
+                    //     console.log("supposedly reset");
+                    // }
                 }
-            }
         });
 
         
