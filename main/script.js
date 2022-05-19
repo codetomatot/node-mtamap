@@ -38,7 +38,7 @@ function toStart_toRecover() {
     fcall.then((data) => {
         // let tofind = "043300_Q..N";
         Object.keys(data).map((key, index) => {
-            // if(key == tofind) {
+            if(data[key].length < 10) {
                 for(let i = 0; i < data[key].length; i++) {
                     const nel = document.createElement("div");
                     const pid = document.createElement("p");
@@ -63,9 +63,7 @@ function toStart_toRecover() {
                 const divider = document.createElement("div");
                 divider.className = "divide";
                 maintab.appendChild(divider);
-            // } else {
-            //     console.log("for all trips this key does not exist");
-            // }
+            }
         });
     });
 }
@@ -76,38 +74,44 @@ setInterval(() => {
     let dat = finalRequest();
     dat.then((data) => {
         // let tofind = "043300_Q..N";
+        let objSize = Object.keys(data);
+        console.log(data);
         Object.keys(data).map((key, index) => {
-            // console.log(data[key]);
-                for(let i = 0; i < data[key].length; i++) {
-                    // console.log("current len: "+tester2.length);
-                    let i_d = document.getElementById("card");
-                    const idtp = document.getElementsByClassName("pid");
-                    const stoptp = document.getElementsByClassName("stop");
-                    const timetp = document.getElementsByClassName("time");
+            // console.log(data["123326_Q..S"]);
+            let i_d = document.querySelectorAll("#card");
+            let idtp = document.querySelectorAll(".pid");
+            let stoptp = document.getElementsByClassName("stop");
+            let timetp = document.getElementsByClassName("time");
 
-                    idtp[i].innerText = data[key][i].trainId;
-                    // stoptp[i].innerText = data[key][i].stop_name;
-                    timetp[i].innerText = data[key][i].arrival;
-                    // for(let j = 0; j < data[key][i].; i++) {
-                    //     //
-                    // }
+            // console.log(idtp);
+            if(idtp.length != i_d.length) {
+                console.log("eroro in len");
+            }// else {
+            //     for(let i = 0; i < i_d.length; i++) {
+            //         // var temp;
+            //         for(let j = 0; j < data[key].length; j++) {
+            //             idtp[j].innerHTML = data[key][j].trainId;
+            //             // console.log(key);
+            //         }
+            //         // idtp[i].innerHTML = temp;
+            //         break;
+            //     }
+                
+            // }
 
-
-                    // if(tester2.length < (maintab.childElementCount-1)) {
-                    //     let toRm = document.querySelector(".t"+(tester2.length).toString()+"t");
-                    //     maintab.removeChild(toRm);
-                    //     console.log("[*]   extra removed");
-                    // } else if(tester2.length > (maintab.childElementCount-1)) {
-                    //     toStart_toRecover();
-                    //     console.log("resetting...");
-                    // }
-                    // if((tester2.length == 1) || (idtp[i] == undefined || stoptp[i] == undefined || timetp[i] == undefined)) {
-                    //     maintab.removeChild(i_d);
-                    //     // toStart_toRecover();s
-                    //     console.log("supposedly reset");
-                    // }
-                }
+                // if(tester2.length < (maintab.childElementCount-1)) {
+                //     let toRm = document.querySelector(".t"+(tester2.length).toString()+"t");
+                //     maintab.removeChild(toRm);
+                //     console.log("[*]   extra removed");
+                // } else if(tester2.length > (maintab.childElementCount-1)) {
+                //     toStart_toRecover();
+                //     console.log("resetting...");
+                // }
+                // if((tester2.length == 1) || (idtp[i] == undefined || stoptp[i] == undefined || timetp[i] == undefined)) {
+                //     maintab.removeChild(i_d);
+                //     // toStart_toRecover();
+                //     console.log("supposedly reset");
+                // }
         });
     });
-
 }, 15000);
