@@ -1,5 +1,4 @@
 import "./data.js";
-// import { token } from "./data.js";
 
 mapboxgl.accessToken = "pk.eyJ1IjoiYm9iLXVzZXIiLCJhIjoiY2tycDM0MjE4MGZsejJ1bXcwczNka3hnNSJ9.JlXSoboCjRDRyUaoHDeUSw";
 var map = new mapboxgl.Map({
@@ -73,45 +72,33 @@ setInterval(() => {
     console.log(dbundle._ot009);
     let dat = finalRequest();
     dat.then((data) => {
-        // let tofind = "043300_Q..N";
         let objSize = Object.keys(data);
         console.log(data);
         Object.keys(data).map((key, index) => {
-            // console.log(data["123326_Q..S"]);
             let i_d = document.querySelectorAll("#card");
             let idtp = document.querySelectorAll(".pid");
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
 
-            // console.log(idtp);
-            if(idtp.length != i_d.length) {
-                console.log("eroro in len");
-            }// else {
-            //     for(let i = 0; i < i_d.length; i++) {
-            //         // var temp;
-            //         for(let j = 0; j < data[key].length; j++) {
-            //             idtp[j].innerHTML = data[key][j].trainId;
-            //             // console.log(key);
-            //         }
-            //         // idtp[i].innerHTML = temp;
-            //         break;
-            //     }
-                
-            // }
+            let arr = [];
+            let modArr = [];
 
-                // if(tester2.length < (maintab.childElementCount-1)) {
-                //     let toRm = document.querySelector(".t"+(tester2.length).toString()+"t");
-                //     maintab.removeChild(toRm);
-                //     console.log("[*]   extra removed");
-                // } else if(tester2.length > (maintab.childElementCount-1)) {
-                //     toStart_toRecover();
-                //     console.log("resetting...");
-                // }
-                // if((tester2.length == 1) || (idtp[i] == undefined || stoptp[i] == undefined || timetp[i] == undefined)) {
-                //     maintab.removeChild(i_d);
-                //     // toStart_toRecover();
-                //     console.log("supposedly reset");
-                // }
+            if(data[key].length < 10) {
+                //data[key] = array of objects: [{...}, {...}]
+                //data[key][i] = object of values {trainid, arrival, location, name}...
+                //idtp is object.
+                //looping looks like: [0,1][0,1,2,3][0,1,2]... because of every length of data[key] for every key can be different.
+                //idtp[i] will not work because the querySelectorAll returns them all in one nodelist with a constant incremental.
+                //  solution? -> convert idtp to a 2d array so ([pid.1, pid.2], [pid.3,pid.4,pid.5]...) so that the lengths of each data key corresponds to the lengths of each array of pids.
+
+                //convert here
+                for(let j = 0; j < idtp.length; j++) {
+                    arr.push(idtp[j]);
+                }
+                for(let i = 0; i < data[key].length; i++) {
+                    //
+                }
+            }
         });
     });
 }, 15000);
