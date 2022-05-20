@@ -71,6 +71,13 @@ toStart_toRecover();
 const countOccur = (arr, value) => {
     return arr.reduce((a, val) => (val === value ? a + 1 : a), 0);
 }
+function spliceArray(idtp, na) {
+    let spliced = [];
+    for(let j = 0; j < na.length; j++) {
+        spliced.push(idtp.splice(0, na[j].length));
+    }
+    return spliced;
+}
 
 setInterval(() => {
     console.log(dbundle._ot009);
@@ -81,11 +88,13 @@ setInterval(() => {
 
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
-            let idtp = document.querySelectorAll(".pid");
+            // let idtp = document.querySelectorAll(".pid");
+            let idtp = [...document.querySelectorAll(".pid")];
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
 
             let modArr = [];
+            let spliced = [];
 
             if(data[key].length < 10) {
                 let count = 0;
@@ -100,23 +109,15 @@ setInterval(() => {
                 for(let i = 0; i < data[key].length; i++) {
                     modArr.push(i);
                 }
-                modArr.push("f");
+                
+                modArr.push("Q"); //extra end value for functionality
                 let index = modArr.indexOf(0);
                 for(let i = 0; i < countOccur(modArr, 0); i++) {
                     na.push(modArr.slice(index, modArr.indexOf(0,index+1)));
                     index = modArr.indexOf(0, index+1);
                 }
-                var template = CBNP(timetp, modArr);
+                let idsToFill = spliceArray(idtp, na);
             }
         });
-        function CBNP(idtp_data, fromCopy) {
-            var counter = 0;
-            var idArr = [];
-            for(let r = 0; r < na.length; r++) {
-                idArr.push(new Array(na[r].length).fill(idtp_data[counter])); //(...)spread operator will flatten the array
-                counter += na[r].length;
-            }
-            return idArr;
-        }
     });
 }, 15000);
