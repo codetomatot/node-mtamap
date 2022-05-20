@@ -68,22 +68,27 @@ function toStart_toRecover() {
 }
 toStart_toRecover();
 
+const countOccur = (arr, value) => {
+    return arr.reduce((a, val) => (val === value ? a + 1 : a), 0);
+}
+
 setInterval(() => {
     console.log(dbundle._ot009);
     let dat = finalRequest();
     dat.then((data) => {
         let objSize = Object.keys(data);
-        console.log(data);
+        var na = [];
+
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
             let idtp = document.querySelectorAll(".pid");
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
 
-            let arr = [];
             let modArr = [];
 
             if(data[key].length < 10) {
+                let count = 0;
                 //data[key] = array of objects: [{...}, {...}]
                 //data[key][i] = object of values {trainid, arrival, location, name}...
                 //idtp is object.
@@ -92,13 +97,26 @@ setInterval(() => {
                 //  solution? -> convert idtp to a 2d array so ([pid.1, pid.2], [pid.3,pid.4,pid.5]...) so that the lengths of each data key corresponds to the lengths of each array of pids.
 
                 //convert here
-                for(let j = 0; j < idtp.length; j++) {
-                    arr.push(idtp[j]);
-                }
                 for(let i = 0; i < data[key].length; i++) {
-                    //
+                    modArr.push(i);
                 }
+                modArr.push("f");
+                let index = modArr.indexOf(0);
+                for(let i = 0; i < countOccur(modArr, 0); i++) {
+                    na.push(modArr.slice(index, modArr.indexOf(0,index+1)));
+                    index = modArr.indexOf(0, index+1);
+                }
+                var template = CBNP(timetp, modArr);
             }
         });
+        function CBNP(idtp_data, fromCopy) {
+            var counter = 0;
+            var idArr = [];
+            for(let r = 0; r < na.length; r++) {
+                idArr.push(new Array(na[r].length).fill(idtp_data[counter])); //(...)spread operator will flatten the array
+                counter += na[r].length;
+            }
+            return idArr;
+        }
     });
 }, 15000);

@@ -1,389 +1,7 @@
 [
   {
-    "trainId": "046000_Q..N",
-    "arrival": "8:045:05",
-    "stopId": [
-      "R13N"
-    ],
-    "stop_location": [
-      [
-        "40.764811",
-        "-73.973347"
-      ]
-    ],
-    "stop_name": [
-      "5 Av/59 St"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:047:029",
-    "stopId": [
-      "R11N"
-    ],
-    "stop_location": [
-      [
-        "40.76266",
-        "-73.967258"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/59 St"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:048:025",
-    "stopId": [],
-    "stop_location": [],
-    "stop_name": []
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:050:049",
-    "stopId": [],
-    "stop_location": [],
-    "stop_name": []
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:053:08",
-    "stopId": [
-      "R09N"
-    ],
-    "stop_location": [
-      [
-        "40.750582",
-        "-73.940202"
-      ]
-    ],
-    "stop_name": [
-      "Queensboro Plaza"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:055:08",
-    "stopId": [
-      "R08N"
-    ],
-    "stop_location": [
-      [
-        "40.752882",
-        "-73.932755"
-      ]
-    ],
-    "stop_name": [
-      "39 Av-Dutch Kills"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:056:048",
-    "stopId": [
-      "R06N"
-    ],
-    "stop_location": [
-      [
-        "40.756804",
-        "-73.929575"
-      ]
-    ],
-    "stop_name": [
-      "36 Av"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "8:058:028",
-    "stopId": [
-      "R05N"
-    ],
-    "stop_location": [
-      [
-        "40.76182",
-        "-73.925508"
-      ]
-    ],
-    "stop_name": [
-      "Broadway"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "9:00:08",
-    "stopId": [
-      "R04N"
-    ],
-    "stop_location": [
-      [
-        "40.766779",
-        "-73.921479"
-      ]
-    ],
-    "stop_name": [
-      "30 Av"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "9:01:048",
-    "stopId": [
-      "R03N"
-    ],
-    "stop_location": [
-      [
-        "40.770258",
-        "-73.917843"
-      ]
-    ],
-    "stop_name": [
-      "Astoria Blvd"
-    ]
-  },
-  {
-    "trainId": "046000_Q..N",
-    "arrival": "9:03:028",
-    "stopId": [
-      "R01N"
-    ],
-    "stop_location": [
-      [
-        "40.775036",
-        "-73.912034"
-      ]
-    ],
-    "stop_name": [
-      "Astoria-Ditmars Blvd"
-    ]
-  },
-  {
-    "trainId": "045818_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "045818_Q..N",
-    "arrival": "8:045:041",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "045818_Q..N",
-    "arrival": "8:047:041",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "045950_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D41S"
-    ],
-    "stop_location": [
-      [
-        "40.576312",
-        "-73.968501"
-      ]
-    ],
-    "stop_name": [
-      "Ocean Pkwy"
-    ]
-  },
-  {
-    "trainId": "045950_Q..S",
-    "arrival": "8:045:05",
-    "stopId": [
-      "D42S"
-    ],
-    "stop_location": [
-      [
-        "40.576127",
-        "-73.975939"
-      ]
-    ],
-    "stop_name": [
-      "W 8 St-NY Aquarium"
-    ]
-  },
-  {
-    "trainId": "045950_Q..S",
-    "arrival": "8:046:035",
-    "stopId": [
-      "D43S"
-    ],
-    "stop_location": [
-      [
-        "40.577422",
-        "-73.981233"
-      ]
-    ],
-    "stop_name": [
-      "Coney Island-Stillwell Av"
-    ]
-  },
-  {
-    "trainId": "046420_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "R14N"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "046420_Q..N",
-    "arrival": "8:045:05",
-    "stopId": [
-      "B08N"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "046420_Q..N",
-    "arrival": "8:047:05",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "046420_Q..N",
-    "arrival": "8:049:035",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "046420_Q..N",
-    "arrival": "8:051:035",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "046750_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D37S"
-    ],
-    "stop_location": [
-      [
-        "40.5993",
-        "-73.955929"
-      ]
-    ],
-    "stop_name": [
-      "Avenue U"
-    ]
-  },
-  {
-    "trainId": "046750_Q..S",
-    "arrival": "8:045:05",
-    "stopId": [
-      "D38S"
-    ],
-    "stop_location": [
-      [
-        "40.595246",
-        "-73.955161"
-      ]
-    ],
-    "stop_name": [
-      "Neck Rd"
-    ]
-  },
-  {
-    "trainId": "046750_Q..S",
-    "arrival": "8:047:035",
-    "stopId": [
-      "D39S"
-    ],
-    "stop_location": [
-      [
-        "40.586896",
-        "-73.954155"
-      ]
-    ],
-    "stop_name": [
-      "Sheepshead Bay"
-    ]
-  },
-  {
-    "trainId": "046750_Q..S",
-    "arrival": "8:050:020",
+    "trainId": "133950_Q..S",
+    "arrival": "23:017:041",
     "stopId": [
       "D40S"
     ],
@@ -398,8 +16,8 @@
     ]
   },
   {
-    "trainId": "046750_Q..S",
-    "arrival": "8:053:05",
+    "trainId": "133950_Q..S",
+    "arrival": "23:020:011",
     "stopId": [
       "D41S"
     ],
@@ -414,8 +32,8 @@
     ]
   },
   {
-    "trainId": "046750_Q..S",
-    "arrival": "8:055:05",
+    "trainId": "133950_Q..S",
+    "arrival": "23:022:011",
     "stopId": [
       "D42S"
     ],
@@ -430,8 +48,8 @@
     ]
   },
   {
-    "trainId": "046750_Q..S",
-    "arrival": "8:056:035",
+    "trainId": "133950_Q..S",
+    "arrival": "23:023:041",
     "stopId": [
       "D43S"
     ],
@@ -446,40 +64,8 @@
     ]
   },
   {
-    "trainId": "046936_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "R17N"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "046936_Q..N",
-    "arrival": "8:045:05",
-    "stopId": [
-      "R16N"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "046936_Q..N",
-    "arrival": "8:048:05",
+    "trainId": "134160_Q..N",
+    "arrival": "23:016:015",
     "stopId": [
       "R14N"
     ],
@@ -494,8 +80,8 @@
     ]
   },
   {
-    "trainId": "046936_Q..N",
-    "arrival": "8:050:035",
+    "trainId": "134160_Q..N",
+    "arrival": "23:017:041",
     "stopId": [
       "B08N"
     ],
@@ -510,8 +96,8 @@
     ]
   },
   {
-    "trainId": "046936_Q..N",
-    "arrival": "8:052:035",
+    "trainId": "134160_Q..N",
+    "arrival": "23:019:041",
     "stopId": [
       "Q03N"
     ],
@@ -526,8 +112,8 @@
     ]
   },
   {
-    "trainId": "046936_Q..N",
-    "arrival": "8:055:05",
+    "trainId": "134160_Q..N",
+    "arrival": "23:022:011",
     "stopId": [
       "Q04N"
     ],
@@ -542,8 +128,8 @@
     ]
   },
   {
-    "trainId": "046936_Q..N",
-    "arrival": "8:057:05",
+    "trainId": "134160_Q..N",
+    "arrival": "23:024:011",
     "stopId": [
       "Q05N"
     ],
@@ -558,152 +144,8 @@
     ]
   },
   {
-    "trainId": "047501_Q..N",
-    "arrival": "8:043:051",
-    "stopId": [
-      "R17N"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "047501_Q..N",
-    "arrival": "8:045:021",
-    "stopId": [
-      "R16N"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "047501_Q..N",
-    "arrival": "8:048:021",
-    "stopId": [
-      "R14N"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "047501_Q..N",
-    "arrival": "8:050:051",
-    "stopId": [
-      "B08N"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "047501_Q..N",
-    "arrival": "8:052:051",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "047501_Q..N",
-    "arrival": "8:055:021",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "047501_Q..N",
-    "arrival": "8:057:021",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "047403_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D33S"
-    ],
-    "stop_location": [
-      [
-        "40.625039",
-        "-73.960803"
-      ]
-    ],
-    "stop_name": [
-      "Avenue J"
-    ]
-  },
-  {
-    "trainId": "047403_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D34S"
-    ],
-    "stop_location": [
-      [
-        "40.617618",
-        "-73.959399"
-      ]
-    ],
-    "stop_name": [
-      "Avenue M"
-    ]
-  },
-  {
-    "trainId": "047403_Q..S",
-    "arrival": "8:045:046",
+    "trainId": "134900_Q..S",
+    "arrival": "23:016:036",
     "stopId": [
       "D35S"
     ],
@@ -718,8 +160,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "8:048:016",
+    "trainId": "134900_Q..S",
+    "arrival": "23:017:057",
     "stopId": [
       "D37S"
     ],
@@ -734,8 +176,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "8:049:016",
+    "trainId": "134900_Q..S",
+    "arrival": "23:018:057",
     "stopId": [
       "D38S"
     ],
@@ -750,8 +192,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "8:051:046",
+    "trainId": "134900_Q..S",
+    "arrival": "23:021:027",
     "stopId": [
       "D39S"
     ],
@@ -766,8 +208,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "8:054:031",
+    "trainId": "134900_Q..S",
+    "arrival": "23:023:057",
     "stopId": [
       "D40S"
     ],
@@ -782,8 +224,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "8:057:016",
+    "trainId": "134900_Q..S",
+    "arrival": "23:026:027",
     "stopId": [
       "D41S"
     ],
@@ -798,8 +240,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "8:059:016",
+    "trainId": "134900_Q..S",
+    "arrival": "23:028:027",
     "stopId": [
       "D42S"
     ],
@@ -814,8 +256,8 @@
     ]
   },
   {
-    "trainId": "047403_Q..S",
-    "arrival": "9:00:046",
+    "trainId": "134900_Q..S",
+    "arrival": "23:029:057",
     "stopId": [
       "D43S"
     ],
@@ -830,8 +272,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "8:043:056",
+    "trainId": "135863_Q..N",
+    "arrival": "23:019:054",
     "stopId": [
       "Q01N"
     ],
@@ -846,8 +288,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "8:048:026",
+    "trainId": "135863_Q..N",
+    "arrival": "23:023:054",
     "stopId": [
       "R20N"
     ],
@@ -862,8 +304,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "8:051:056",
+    "trainId": "135863_Q..N",
+    "arrival": "23:026:024",
     "stopId": [
       "R17N"
     ],
@@ -878,8 +320,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "8:053:026",
+    "trainId": "135863_Q..N",
+    "arrival": "23:027:054",
     "stopId": [
       "R16N"
     ],
@@ -894,8 +336,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "8:056:026",
+    "trainId": "135863_Q..N",
+    "arrival": "23:030:054",
     "stopId": [
       "R14N"
     ],
@@ -910,8 +352,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "8:058:056",
+    "trainId": "135863_Q..N",
+    "arrival": "23:033:024",
     "stopId": [
       "B08N"
     ],
@@ -926,8 +368,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "9:00:056",
+    "trainId": "135863_Q..N",
+    "arrival": "23:035:024",
     "stopId": [
       "Q03N"
     ],
@@ -942,8 +384,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "9:03:026",
+    "trainId": "135863_Q..N",
+    "arrival": "23:038:09",
     "stopId": [
       "Q04N"
     ],
@@ -958,8 +400,8 @@
     ]
   },
   {
-    "trainId": "048121_Q..N",
-    "arrival": "9:05:026",
+    "trainId": "135863_Q..N",
+    "arrival": "23:040:024",
     "stopId": [
       "Q05N"
     ],
@@ -974,584 +416,8 @@
     ]
   },
   {
-    "trainId": "048250_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D30S"
-    ],
-    "stop_location": [
-      [
-        "40.640927",
-        "-73.963891"
-      ]
-    ],
-    "stop_name": [
-      "Cortelyou Rd"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:043:050",
-    "stopId": [
-      "D31S"
-    ],
-    "stop_location": [
-      [
-        "40.635082",
-        "-73.962793"
-      ]
-    ],
-    "stop_name": [
-      "Newkirk Plaza"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:045:05",
-    "stopId": [
-      "D32S"
-    ],
-    "stop_location": [
-      [
-        "40.62927",
-        "-73.961639"
-      ]
-    ],
-    "stop_name": [
-      "Avenue H"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:046:035",
-    "stopId": [
-      "D33S"
-    ],
-    "stop_location": [
-      [
-        "40.625039",
-        "-73.960803"
-      ]
-    ],
-    "stop_name": [
-      "Avenue J"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:048:05",
-    "stopId": [
-      "D34S"
-    ],
-    "stop_location": [
-      [
-        "40.617618",
-        "-73.959399"
-      ]
-    ],
-    "stop_name": [
-      "Avenue M"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:050:035",
-    "stopId": [
-      "D35S"
-    ],
-    "stop_location": [
-      [
-        "40.60867",
-        "-73.957734"
-      ]
-    ],
-    "stop_name": [
-      "Kings Hwy"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:053:05",
-    "stopId": [
-      "D37S"
-    ],
-    "stop_location": [
-      [
-        "40.5993",
-        "-73.955929"
-      ]
-    ],
-    "stop_name": [
-      "Avenue U"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:054:05",
-    "stopId": [
-      "D38S"
-    ],
-    "stop_location": [
-      [
-        "40.595246",
-        "-73.955161"
-      ]
-    ],
-    "stop_name": [
-      "Neck Rd"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:056:035",
-    "stopId": [
-      "D39S"
-    ],
-    "stop_location": [
-      [
-        "40.586896",
-        "-73.954155"
-      ]
-    ],
-    "stop_name": [
-      "Sheepshead Bay"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "8:059:020",
-    "stopId": [
-      "D40S"
-    ],
-    "stop_location": [
-      [
-        "40.577621",
-        "-73.961376"
-      ]
-    ],
-    "stop_name": [
-      "Brighton Beach"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "9:02:05",
-    "stopId": [
-      "D41S"
-    ],
-    "stop_location": [
-      [
-        "40.576312",
-        "-73.968501"
-      ]
-    ],
-    "stop_name": [
-      "Ocean Pkwy"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "9:04:05",
-    "stopId": [
-      "D42S"
-    ],
-    "stop_location": [
-      [
-        "40.576127",
-        "-73.975939"
-      ]
-    ],
-    "stop_name": [
-      "W 8 St-NY Aquarium"
-    ]
-  },
-  {
-    "trainId": "048250_Q..S",
-    "arrival": "9:05:035",
-    "stopId": [
-      "D43S"
-    ],
-    "stop_location": [
-      [
-        "40.577422",
-        "-73.981233"
-      ]
-    ],
-    "stop_name": [
-      "Coney Island-Stillwell Av"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "8:050:033",
-    "stopId": [
-      "Q01N"
-    ],
-    "stop_location": [
-      [
-        "40.718383",
-        "-74.00046"
-      ]
-    ],
-    "stop_name": [
-      "Canal St"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "8:055:03",
-    "stopId": [
-      "R20N"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "8:058:033",
-    "stopId": [
-      "R17N"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "9:00:03",
-    "stopId": [
-      "R16N"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "9:03:03",
-    "stopId": [
-      "R14N"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "9:05:033",
-    "stopId": [
-      "B08N"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "9:07:033",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "9:010:03",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "048745_Q..N",
-    "arrival": "9:012:03",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "8:046:011",
-    "stopId": [
-      "D25N"
-    ],
-    "stop_location": [
-      [
-        "40.67705",
-        "-73.972367"
-      ]
-    ],
-    "stop_name": [
-      "7 Av"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "8:048:011",
-    "stopId": [
-      "D24N"
-    ],
-    "stop_location": [
-      [
-        "40.68446",
-        "-73.97689"
-      ]
-    ],
-    "stop_name": [
-      "Atlantic Av-Barclays Ctr"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "8:050:011",
-    "stopId": [
-      "R30N"
-    ],
-    "stop_location": [
-      [
-        "40.690635",
-        "-73.981824"
-      ]
-    ],
-    "stop_name": [
-      "DeKalb Av"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "8:058:041",
-    "stopId": [
-      "Q01N"
-    ],
-    "stop_location": [
-      [
-        "40.718383",
-        "-74.00046"
-      ]
-    ],
-    "stop_name": [
-      "Canal St"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:03:011",
-    "stopId": [
-      "R20N"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:06:041",
-    "stopId": [
-      "R17N"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:08:011",
-    "stopId": [
-      "R16N"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:011:011",
-    "stopId": [
-      "R14N"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:013:041",
-    "stopId": [
-      "B08N"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:015:041",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:018:011",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "049623_Q..N",
-    "arrival": "9:020:011",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "049200_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D25S"
-    ],
-    "stop_location": [
-      [
-        "40.67705",
-        "-73.972367"
-      ]
-    ],
-    "stop_name": [
-      "7 Av"
-    ]
-  },
-  {
-    "trainId": "049200_Q..S",
-    "arrival": "8:046:036",
-    "stopId": [
-      "D26S"
-    ],
-    "stop_location": [
-      [
-        "40.661614",
-        "-73.962246"
-      ]
-    ],
-    "stop_name": [
-      "Prospect Park"
-    ]
-  },
-  {
-    "trainId": "049200_Q..S",
-    "arrival": "8:048:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:016:036",
     "stopId": [
       "D27S"
     ],
@@ -1566,8 +432,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:049:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:017:041",
     "stopId": [
       "D28S"
     ],
@@ -1582,8 +448,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:051:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:019:011",
     "stopId": [
       "D29S"
     ],
@@ -1598,8 +464,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:052:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:019:041",
     "stopId": [
       "D30S"
     ],
@@ -1614,8 +480,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:053:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:021:011",
     "stopId": [
       "D31S"
     ],
@@ -1630,8 +496,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:054:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:022:041",
     "stopId": [
       "D32S"
     ],
@@ -1646,8 +512,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:056:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:023:041",
     "stopId": [
       "D33S"
     ],
@@ -1662,8 +528,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "8:057:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:025:041",
     "stopId": [
       "D34S"
     ],
@@ -1678,8 +544,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:00:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:027:041",
     "stopId": [
       "D35S"
     ],
@@ -1694,8 +560,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:02:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:030:011",
     "stopId": [
       "D37S"
     ],
@@ -1710,8 +576,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:03:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:031:011",
     "stopId": [
       "D38S"
     ],
@@ -1726,8 +592,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:06:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:033:041",
     "stopId": [
       "D39S"
     ],
@@ -1742,8 +608,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:08:051",
+    "trainId": "135980_Q..S",
+    "arrival": "23:036:011",
     "stopId": [
       "D40S"
     ],
@@ -1758,8 +624,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:011:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:038:041",
     "stopId": [
       "D41S"
     ],
@@ -1774,8 +640,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:013:036",
+    "trainId": "135980_Q..S",
+    "arrival": "23:040:041",
     "stopId": [
       "D42S"
     ],
@@ -1790,8 +656,8 @@
     ]
   },
   {
-    "trainId": "049200_Q..S",
-    "arrival": "9:015:06",
+    "trainId": "135980_Q..S",
+    "arrival": "23:042:011",
     "stopId": [
       "D43S"
     ],
@@ -1806,88 +672,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "8:043:046",
-    "stopId": [
-      "D31N"
-    ],
-    "stop_location": [
-      [
-        "40.635082",
-        "-73.962793"
-      ]
-    ],
-    "stop_name": [
-      "Newkirk Plaza"
-    ]
-  },
-  {
-    "trainId": "050150_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D30N"
-    ],
-    "stop_location": [
-      [
-        "40.640927",
-        "-73.963891"
-      ]
-    ],
-    "stop_name": [
-      "Cortelyou Rd"
-    ]
-  },
-  {
-    "trainId": "050150_Q..N",
-    "arrival": "8:045:05",
-    "stopId": [
-      "D29N"
-    ],
-    "stop_location": [
-      [
-        "40.644031",
-        "-73.964492"
-      ]
-    ],
-    "stop_name": [
-      "Beverley Rd"
-    ]
-  },
-  {
-    "trainId": "050150_Q..N",
-    "arrival": "8:046:035",
-    "stopId": [
-      "D28N"
-    ],
-    "stop_location": [
-      [
-        "40.650527",
-        "-73.962982"
-      ]
-    ],
-    "stop_name": [
-      "Church Av"
-    ]
-  },
-  {
-    "trainId": "050150_Q..N",
-    "arrival": "8:048:05",
-    "stopId": [
-      "D27N"
-    ],
-    "stop_location": [
-      [
-        "40.655292",
-        "-73.961495"
-      ]
-    ],
-    "stop_name": [
-      "Parkside Av"
-    ]
-  },
-  {
-    "trainId": "050150_Q..N",
-    "arrival": "8:049:035",
+    "trainId": "137100_Q..N",
+    "arrival": "23:016:036",
     "stopId": [
       "D26N"
     ],
@@ -1902,8 +688,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "8:054:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:018:050",
     "stopId": [
       "D25N"
     ],
@@ -1918,8 +704,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "8:056:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:020:050",
     "stopId": [
       "D24N"
     ],
@@ -1934,8 +720,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "8:058:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:022:020",
     "stopId": [
       "R30N"
     ],
@@ -1950,8 +736,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:06:035",
+    "trainId": "137100_Q..N",
+    "arrival": "23:030:020",
     "stopId": [
       "Q01N"
     ],
@@ -1966,8 +752,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:011:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:034:020",
     "stopId": [
       "R20N"
     ],
@@ -1982,8 +768,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:014:035",
+    "trainId": "137100_Q..N",
+    "arrival": "23:036:050",
     "stopId": [
       "R17N"
     ],
@@ -1998,8 +784,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:016:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:038:020",
     "stopId": [
       "R16N"
     ],
@@ -2014,8 +800,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:019:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:042:05",
     "stopId": [
       "R14N"
     ],
@@ -2030,8 +816,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:021:035",
+    "trainId": "137100_Q..N",
+    "arrival": "23:045:020",
     "stopId": [
       "B08N"
     ],
@@ -2046,8 +832,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:023:035",
+    "trainId": "137100_Q..N",
+    "arrival": "23:047:020",
     "stopId": [
       "Q03N"
     ],
@@ -2062,8 +848,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:026:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:050:050",
     "stopId": [
       "Q04N"
     ],
@@ -2078,8 +864,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..N",
-    "arrival": "9:028:05",
+    "trainId": "137100_Q..N",
+    "arrival": "23:053:050",
     "stopId": [
       "Q05N"
     ],
@@ -2094,8 +880,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "8:049:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:016:036",
     "stopId": [
       "R30S"
     ],
@@ -2110,8 +896,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "8:051:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:017:041",
     "stopId": [
       "D24S"
     ],
@@ -2126,8 +912,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "8:053:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:020:011",
     "stopId": [
       "D25S"
     ],
@@ -2142,8 +928,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "8:057:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:024:011",
     "stopId": [
       "D26S"
     ],
@@ -2158,8 +944,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "8:059:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:025:041",
     "stopId": [
       "D27S"
     ],
@@ -2174,8 +960,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:00:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:027:011",
     "stopId": [
       "D28S"
     ],
@@ -2190,8 +976,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:02:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:028:041",
     "stopId": [
       "D29S"
     ],
@@ -2206,8 +992,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:03:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:029:011",
     "stopId": [
       "D30S"
     ],
@@ -2222,8 +1008,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:04:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:030:041",
     "stopId": [
       "D31S"
     ],
@@ -2238,8 +1024,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:05:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:032:011",
     "stopId": [
       "D32S"
     ],
@@ -2254,8 +1040,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:07:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:033:011",
     "stopId": [
       "D33S"
     ],
@@ -2270,8 +1056,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:08:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:035:011",
     "stopId": [
       "D34S"
     ],
@@ -2286,8 +1072,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:011:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:037:011",
     "stopId": [
       "D35S"
     ],
@@ -2302,8 +1088,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:013:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:039:041",
     "stopId": [
       "D37S"
     ],
@@ -2318,8 +1104,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:014:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:040:041",
     "stopId": [
       "D38S"
     ],
@@ -2334,8 +1120,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:017:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:043:011",
     "stopId": [
       "D39S"
     ],
@@ -2350,8 +1136,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:019:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:045:041",
     "stopId": [
       "D40S"
     ],
@@ -2366,8 +1152,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:022:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:048:011",
     "stopId": [
       "D41S"
     ],
@@ -2382,8 +1168,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:024:06",
+    "trainId": "137050_Q..S",
+    "arrival": "23:050:011",
     "stopId": [
       "D42S"
     ],
@@ -2398,8 +1184,8 @@
     ]
   },
   {
-    "trainId": "050150_Q..S",
-    "arrival": "9:025:036",
+    "trainId": "137050_Q..S",
+    "arrival": "23:051:041",
     "stopId": [
       "D43S"
     ],
@@ -2414,40 +1200,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "R17S"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "051150_Q..S",
-    "arrival": "8:046:043",
-    "stopId": [
-      "R20S"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "051150_Q..S",
-    "arrival": "8:051:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:017:057",
     "stopId": [
       "Q01S"
     ],
@@ -2462,8 +1216,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "8:059:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:026:057",
     "stopId": [
       "R30S"
     ],
@@ -2478,8 +1232,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:01:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:028:027",
     "stopId": [
       "D24S"
     ],
@@ -2494,8 +1248,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:03:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:030:057",
     "stopId": [
       "D25S"
     ],
@@ -2510,8 +1264,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:07:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:034:057",
     "stopId": [
       "D26S"
     ],
@@ -2526,8 +1280,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:09:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:036:027",
     "stopId": [
       "D27S"
     ],
@@ -2542,8 +1296,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:010:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:037:057",
     "stopId": [
       "D28S"
     ],
@@ -2558,8 +1312,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:012:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:039:027",
     "stopId": [
       "D29S"
     ],
@@ -2574,8 +1328,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:013:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:039:057",
     "stopId": [
       "D30S"
     ],
@@ -2590,8 +1344,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:014:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:041:027",
     "stopId": [
       "D31S"
     ],
@@ -2606,8 +1360,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:015:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:042:057",
     "stopId": [
       "D32S"
     ],
@@ -2622,8 +1376,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:017:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:043:057",
     "stopId": [
       "D33S"
     ],
@@ -2638,8 +1392,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:018:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:045:057",
     "stopId": [
       "D34S"
     ],
@@ -2654,8 +1408,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:021:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:047:057",
     "stopId": [
       "D35S"
     ],
@@ -2670,8 +1424,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:023:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:050:027",
     "stopId": [
       "D37S"
     ],
@@ -2686,8 +1440,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:024:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:051:027",
     "stopId": [
       "D38S"
     ],
@@ -2702,8 +1456,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:027:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:053:057",
     "stopId": [
       "D39S"
     ],
@@ -2718,8 +1472,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:029:043",
+    "trainId": "138050_Q..S",
+    "arrival": "23:056:027",
     "stopId": [
       "D40S"
     ],
@@ -2734,8 +1488,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:032:013",
+    "trainId": "138050_Q..S",
+    "arrival": "23:058:057",
     "stopId": [
       "D41S"
     ],
@@ -2750,8 +1504,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:034:013",
+    "trainId": "138050_Q..S",
+    "arrival": "0:00:057",
     "stopId": [
       "D42S"
     ],
@@ -2766,8 +1520,8 @@
     ]
   },
   {
-    "trainId": "051150_Q..S",
-    "arrival": "9:035:043",
+    "trainId": "138050_Q..S",
+    "arrival": "0:02:027",
     "stopId": [
       "D43S"
     ],
@@ -2782,24 +1536,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D35N"
-    ],
-    "stop_location": [
-      [
-        "40.60867",
-        "-73.957734"
-      ]
-    ],
-    "stop_name": [
-      "Kings Hwy"
-    ]
-  },
-  {
-    "trainId": "050950_Q..N",
-    "arrival": "8:046:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:016:036",
     "stopId": [
       "D34N"
     ],
@@ -2814,8 +1552,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:048:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:017:041",
     "stopId": [
       "D33N"
     ],
@@ -2830,8 +1568,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:049:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:018:041",
     "stopId": [
       "D32N"
     ],
@@ -2846,8 +1584,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:050:056",
+    "trainId": "138268_Q..N",
+    "arrival": "23:020:011",
     "stopId": [
       "D31N"
     ],
@@ -2862,8 +1600,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:052:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:021:041",
     "stopId": [
       "D30N"
     ],
@@ -2878,8 +1616,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:053:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:022:011",
     "stopId": [
       "D29N"
     ],
@@ -2894,8 +1632,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:054:056",
+    "trainId": "138268_Q..N",
+    "arrival": "23:023:041",
     "stopId": [
       "D28N"
     ],
@@ -2910,8 +1648,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:056:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:025:011",
     "stopId": [
       "D27N"
     ],
@@ -2926,8 +1664,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "8:057:056",
+    "trainId": "138268_Q..N",
+    "arrival": "23:026:041",
     "stopId": [
       "D26N"
     ],
@@ -2942,8 +1680,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:02:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:030:011",
     "stopId": [
       "D25N"
     ],
@@ -2958,8 +1696,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:04:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:032:011",
     "stopId": [
       "D24N"
     ],
@@ -2974,8 +1712,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:06:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:033:041",
     "stopId": [
       "R30N"
     ],
@@ -2990,8 +1728,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:014:056",
+    "trainId": "138268_Q..N",
+    "arrival": "23:041:041",
     "stopId": [
       "Q01N"
     ],
@@ -3006,8 +1744,40 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:019:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:043:041",
+    "stopId": [
+      "R22N"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "138268_Q..N",
+    "arrival": "23:045:041",
+    "stopId": [
+      "R21N"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "138268_Q..N",
+    "arrival": "23:047:041",
     "stopId": [
       "R20N"
     ],
@@ -3022,8 +1792,40 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:022:056",
+    "trainId": "138268_Q..N",
+    "arrival": "23:049:011",
+    "stopId": [
+      "R19N"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "138268_Q..N",
+    "arrival": "23:050:041",
+    "stopId": [
+      "R18N"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "138268_Q..N",
+    "arrival": "23:051:041",
     "stopId": [
       "R17N"
     ],
@@ -3038,8 +1840,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:024:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:053:011",
     "stopId": [
       "R16N"
     ],
@@ -3054,8 +1856,24 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:027:026",
+    "trainId": "138268_Q..N",
+    "arrival": "23:055:011",
+    "stopId": [
+      "R15N"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "138268_Q..N",
+    "arrival": "23:057:011",
     "stopId": [
       "R14N"
     ],
@@ -3070,8 +1888,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:029:056",
+    "trainId": "138268_Q..N",
+    "arrival": "23:059:041",
     "stopId": [
       "B08N"
     ],
@@ -3086,8 +1904,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:031:056",
+    "trainId": "138268_Q..N",
+    "arrival": "0:01:041",
     "stopId": [
       "Q03N"
     ],
@@ -3102,8 +1920,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:034:026",
+    "trainId": "138268_Q..N",
+    "arrival": "0:04:056",
     "stopId": [
       "Q04N"
     ],
@@ -3118,8 +1936,8 @@
     ]
   },
   {
-    "trainId": "050950_Q..N",
-    "arrival": "9:036:026",
+    "trainId": "138268_Q..N",
+    "arrival": "0:07:041",
     "stopId": [
       "Q05N"
     ],
@@ -3134,1784 +1952,8 @@
     ]
   },
   {
-    "trainId": "051860_Q..S",
-    "arrival": "8:045:05",
-    "stopId": [
-      "B08S"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "8:048:035",
-    "stopId": [
-      "R14S"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "8:052:05",
-    "stopId": [
-      "R16S"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "8:053:035",
-    "stopId": [
-      "R17S"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "8:056:035",
-    "stopId": [
-      "R20S"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:00:035",
-    "stopId": [
-      "Q01S"
-    ],
-    "stop_location": [
-      [
-        "40.718383",
-        "-74.00046"
-      ]
-    ],
-    "stop_name": [
-      "Canal St"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:08:035",
-    "stopId": [
-      "R30S"
-    ],
-    "stop_location": [
-      [
-        "40.690635",
-        "-73.981824"
-      ]
-    ],
-    "stop_name": [
-      "DeKalb Av"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:010:05",
-    "stopId": [
-      "D24S"
-    ],
-    "stop_location": [
-      [
-        "40.68446",
-        "-73.97689"
-      ]
-    ],
-    "stop_name": [
-      "Atlantic Av-Barclays Ctr"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:012:035",
-    "stopId": [
-      "D25S"
-    ],
-    "stop_location": [
-      [
-        "40.67705",
-        "-73.972367"
-      ]
-    ],
-    "stop_name": [
-      "7 Av"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:016:035",
-    "stopId": [
-      "D26S"
-    ],
-    "stop_location": [
-      [
-        "40.661614",
-        "-73.962246"
-      ]
-    ],
-    "stop_name": [
-      "Prospect Park"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:018:05",
-    "stopId": [
-      "D27S"
-    ],
-    "stop_location": [
-      [
-        "40.655292",
-        "-73.961495"
-      ]
-    ],
-    "stop_name": [
-      "Parkside Av"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:019:035",
-    "stopId": [
-      "D28S"
-    ],
-    "stop_location": [
-      [
-        "40.650527",
-        "-73.962982"
-      ]
-    ],
-    "stop_name": [
-      "Church Av"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:021:05",
-    "stopId": [
-      "D29S"
-    ],
-    "stop_location": [
-      [
-        "40.644031",
-        "-73.964492"
-      ]
-    ],
-    "stop_name": [
-      "Beverley Rd"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:022:05",
-    "stopId": [
-      "D30S"
-    ],
-    "stop_location": [
-      [
-        "40.640927",
-        "-73.963891"
-      ]
-    ],
-    "stop_name": [
-      "Cortelyou Rd"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:023:035",
-    "stopId": [
-      "D31S"
-    ],
-    "stop_location": [
-      [
-        "40.635082",
-        "-73.962793"
-      ]
-    ],
-    "stop_name": [
-      "Newkirk Plaza"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:024:035",
-    "stopId": [
-      "D32S"
-    ],
-    "stop_location": [
-      [
-        "40.62927",
-        "-73.961639"
-      ]
-    ],
-    "stop_name": [
-      "Avenue H"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:026:05",
-    "stopId": [
-      "D33S"
-    ],
-    "stop_location": [
-      [
-        "40.625039",
-        "-73.960803"
-      ]
-    ],
-    "stop_name": [
-      "Avenue J"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:027:035",
-    "stopId": [
-      "D34S"
-    ],
-    "stop_location": [
-      [
-        "40.617618",
-        "-73.959399"
-      ]
-    ],
-    "stop_name": [
-      "Avenue M"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:030:05",
-    "stopId": [
-      "D35S"
-    ],
-    "stop_location": [
-      [
-        "40.60867",
-        "-73.957734"
-      ]
-    ],
-    "stop_name": [
-      "Kings Hwy"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:032:035",
-    "stopId": [
-      "D37S"
-    ],
-    "stop_location": [
-      [
-        "40.5993",
-        "-73.955929"
-      ]
-    ],
-    "stop_name": [
-      "Avenue U"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:033:035",
-    "stopId": [
-      "D38S"
-    ],
-    "stop_location": [
-      [
-        "40.595246",
-        "-73.955161"
-      ]
-    ],
-    "stop_name": [
-      "Neck Rd"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:036:05",
-    "stopId": [
-      "D39S"
-    ],
-    "stop_location": [
-      [
-        "40.586896",
-        "-73.954155"
-      ]
-    ],
-    "stop_name": [
-      "Sheepshead Bay"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:038:050",
-    "stopId": [
-      "D40S"
-    ],
-    "stop_location": [
-      [
-        "40.577621",
-        "-73.961376"
-      ]
-    ],
-    "stop_name": [
-      "Brighton Beach"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:041:035",
-    "stopId": [
-      "D41S"
-    ],
-    "stop_location": [
-      [
-        "40.576312",
-        "-73.968501"
-      ]
-    ],
-    "stop_name": [
-      "Ocean Pkwy"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:043:035",
-    "stopId": [
-      "D42S"
-    ],
-    "stop_location": [
-      [
-        "40.576127",
-        "-73.975939"
-      ]
-    ],
-    "stop_name": [
-      "W 8 St-NY Aquarium"
-    ]
-  },
-  {
-    "trainId": "051860_Q..S",
-    "arrival": "9:045:05",
-    "stopId": [
-      "D43S"
-    ],
-    "stop_location": [
-      [
-        "40.577422",
-        "-73.981233"
-      ]
-    ],
-    "stop_name": [
-      "Coney Island-Stillwell Av"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D42N"
-    ],
-    "stop_location": [
-      [
-        "40.576127",
-        "-73.975939"
-      ]
-    ],
-    "stop_name": [
-      "W 8 St-NY Aquarium"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:043:056",
-    "stopId": [
-      "D41N"
-    ],
-    "stop_location": [
-      [
-        "40.576312",
-        "-73.968501"
-      ]
-    ],
-    "stop_name": [
-      "Ocean Pkwy"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:045:051",
-    "stopId": [
-      "D40N"
-    ],
-    "stop_location": [
-      [
-        "40.577621",
-        "-73.961376"
-      ]
-    ],
-    "stop_name": [
-      "Brighton Beach"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:047:051",
-    "stopId": [
-      "D39N"
-    ],
-    "stop_location": [
-      [
-        "40.586896",
-        "-73.954155"
-      ]
-    ],
-    "stop_name": [
-      "Sheepshead Bay"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:049:051",
-    "stopId": [
-      "D38N"
-    ],
-    "stop_location": [
-      [
-        "40.595246",
-        "-73.955161"
-      ]
-    ],
-    "stop_name": [
-      "Neck Rd"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:050:051",
-    "stopId": [
-      "D37N"
-    ],
-    "stop_location": [
-      [
-        "40.5993",
-        "-73.955929"
-      ]
-    ],
-    "stop_name": [
-      "Avenue U"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:053:021",
-    "stopId": [
-      "D35N"
-    ],
-    "stop_location": [
-      [
-        "40.60867",
-        "-73.957734"
-      ]
-    ],
-    "stop_name": [
-      "Kings Hwy"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:055:051",
-    "stopId": [
-      "D34N"
-    ],
-    "stop_location": [
-      [
-        "40.617618",
-        "-73.959399"
-      ]
-    ],
-    "stop_name": [
-      "Avenue M"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:057:021",
-    "stopId": [
-      "D33N"
-    ],
-    "stop_location": [
-      [
-        "40.625039",
-        "-73.960803"
-      ]
-    ],
-    "stop_name": [
-      "Avenue J"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:058:051",
-    "stopId": [
-      "D32N"
-    ],
-    "stop_location": [
-      [
-        "40.62927",
-        "-73.961639"
-      ]
-    ],
-    "stop_name": [
-      "Avenue H"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "8:059:051",
-    "stopId": [
-      "D31N"
-    ],
-    "stop_location": [
-      [
-        "40.635082",
-        "-73.962793"
-      ]
-    ],
-    "stop_name": [
-      "Newkirk Plaza"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:01:021",
-    "stopId": [
-      "D30N"
-    ],
-    "stop_location": [
-      [
-        "40.640927",
-        "-73.963891"
-      ]
-    ],
-    "stop_name": [
-      "Cortelyou Rd"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:02:021",
-    "stopId": [
-      "D29N"
-    ],
-    "stop_location": [
-      [
-        "40.644031",
-        "-73.964492"
-      ]
-    ],
-    "stop_name": [
-      "Beverley Rd"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:03:051",
-    "stopId": [
-      "D28N"
-    ],
-    "stop_location": [
-      [
-        "40.650527",
-        "-73.962982"
-      ]
-    ],
-    "stop_name": [
-      "Church Av"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:05:021",
-    "stopId": [
-      "D27N"
-    ],
-    "stop_location": [
-      [
-        "40.655292",
-        "-73.961495"
-      ]
-    ],
-    "stop_name": [
-      "Parkside Av"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:06:051",
-    "stopId": [
-      "D26N"
-    ],
-    "stop_location": [
-      [
-        "40.661614",
-        "-73.962246"
-      ]
-    ],
-    "stop_name": [
-      "Prospect Park"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:011:021",
-    "stopId": [
-      "D25N"
-    ],
-    "stop_location": [
-      [
-        "40.67705",
-        "-73.972367"
-      ]
-    ],
-    "stop_name": [
-      "7 Av"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:013:021",
-    "stopId": [
-      "D24N"
-    ],
-    "stop_location": [
-      [
-        "40.68446",
-        "-73.97689"
-      ]
-    ],
-    "stop_name": [
-      "Atlantic Av-Barclays Ctr"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:015:021",
-    "stopId": [
-      "R30N"
-    ],
-    "stop_location": [
-      [
-        "40.690635",
-        "-73.981824"
-      ]
-    ],
-    "stop_name": [
-      "DeKalb Av"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:023:051",
-    "stopId": [
-      "Q01N"
-    ],
-    "stop_location": [
-      [
-        "40.718383",
-        "-74.00046"
-      ]
-    ],
-    "stop_name": [
-      "Canal St"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:028:021",
-    "stopId": [
-      "R20N"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:031:051",
-    "stopId": [
-      "R17N"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:033:021",
-    "stopId": [
-      "R16N"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:036:021",
-    "stopId": [
-      "R14N"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:038:051",
-    "stopId": [
-      "B08N"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:040:051",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:043:021",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "052165_Q..N",
-    "arrival": "9:045:021",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "8:043:056",
-    "stopId": [
-      "Q04S"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "8:045:056",
-    "stopId": [
-      "Q03S"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "8:047:056",
-    "stopId": [
-      "B08S"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "8:051:056",
-    "stopId": [
-      "R14S"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "8:055:056",
-    "stopId": [
-      "R16S"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "8:057:026",
-    "stopId": [
-      "R17S"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:00:026",
-    "stopId": [
-      "R20S"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:04:026",
-    "stopId": [
-      "Q01S"
-    ],
-    "stop_location": [
-      [
-        "40.718383",
-        "-74.00046"
-      ]
-    ],
-    "stop_name": [
-      "Canal St"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:012:026",
-    "stopId": [
-      "R30S"
-    ],
-    "stop_location": [
-      [
-        "40.690635",
-        "-73.981824"
-      ]
-    ],
-    "stop_name": [
-      "DeKalb Av"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:013:056",
-    "stopId": [
-      "D24S"
-    ],
-    "stop_location": [
-      [
-        "40.68446",
-        "-73.97689"
-      ]
-    ],
-    "stop_name": [
-      "Atlantic Av-Barclays Ctr"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:016:026",
-    "stopId": [
-      "D25S"
-    ],
-    "stop_location": [
-      [
-        "40.67705",
-        "-73.972367"
-      ]
-    ],
-    "stop_name": [
-      "7 Av"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:020:026",
-    "stopId": [
-      "D26S"
-    ],
-    "stop_location": [
-      [
-        "40.661614",
-        "-73.962246"
-      ]
-    ],
-    "stop_name": [
-      "Prospect Park"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:021:056",
-    "stopId": [
-      "D27S"
-    ],
-    "stop_location": [
-      [
-        "40.655292",
-        "-73.961495"
-      ]
-    ],
-    "stop_name": [
-      "Parkside Av"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:023:026",
-    "stopId": [
-      "D28S"
-    ],
-    "stop_location": [
-      [
-        "40.650527",
-        "-73.962982"
-      ]
-    ],
-    "stop_name": [
-      "Church Av"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:024:056",
-    "stopId": [
-      "D29S"
-    ],
-    "stop_location": [
-      [
-        "40.644031",
-        "-73.964492"
-      ]
-    ],
-    "stop_name": [
-      "Beverley Rd"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:025:056",
-    "stopId": [
-      "D30S"
-    ],
-    "stop_location": [
-      [
-        "40.640927",
-        "-73.963891"
-      ]
-    ],
-    "stop_name": [
-      "Cortelyou Rd"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:027:026",
-    "stopId": [
-      "D31S"
-    ],
-    "stop_location": [
-      [
-        "40.635082",
-        "-73.962793"
-      ]
-    ],
-    "stop_name": [
-      "Newkirk Plaza"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:028:026",
-    "stopId": [
-      "D32S"
-    ],
-    "stop_location": [
-      [
-        "40.62927",
-        "-73.961639"
-      ]
-    ],
-    "stop_name": [
-      "Avenue H"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:029:056",
-    "stopId": [
-      "D33S"
-    ],
-    "stop_location": [
-      [
-        "40.625039",
-        "-73.960803"
-      ]
-    ],
-    "stop_name": [
-      "Avenue J"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:031:026",
-    "stopId": [
-      "D34S"
-    ],
-    "stop_location": [
-      [
-        "40.617618",
-        "-73.959399"
-      ]
-    ],
-    "stop_name": [
-      "Avenue M"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:033:056",
-    "stopId": [
-      "D35S"
-    ],
-    "stop_location": [
-      [
-        "40.60867",
-        "-73.957734"
-      ]
-    ],
-    "stop_name": [
-      "Kings Hwy"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:036:026",
-    "stopId": [
-      "D37S"
-    ],
-    "stop_location": [
-      [
-        "40.5993",
-        "-73.955929"
-      ]
-    ],
-    "stop_name": [
-      "Avenue U"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:037:026",
-    "stopId": [
-      "D38S"
-    ],
-    "stop_location": [
-      [
-        "40.595246",
-        "-73.955161"
-      ]
-    ],
-    "stop_name": [
-      "Neck Rd"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:039:056",
-    "stopId": [
-      "D39S"
-    ],
-    "stop_location": [
-      [
-        "40.586896",
-        "-73.954155"
-      ]
-    ],
-    "stop_name": [
-      "Sheepshead Bay"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:043:026",
-    "stopId": [
-      "D40S"
-    ],
-    "stop_location": [
-      [
-        "40.577621",
-        "-73.961376"
-      ]
-    ],
-    "stop_name": [
-      "Brighton Beach"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:046:056",
-    "stopId": [
-      "D41S"
-    ],
-    "stop_location": [
-      [
-        "40.576312",
-        "-73.968501"
-      ]
-    ],
-    "stop_name": [
-      "Ocean Pkwy"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:048:056",
-    "stopId": [
-      "D42S"
-    ],
-    "stop_location": [
-      [
-        "40.576127",
-        "-73.975939"
-      ]
-    ],
-    "stop_name": [
-      "W 8 St-NY Aquarium"
-    ]
-  },
-  {
-    "trainId": "052285_Q..S",
-    "arrival": "9:050:026",
-    "stopId": [
-      "D43S"
-    ],
-    "stop_location": [
-      [
-        "40.577422",
-        "-73.981233"
-      ]
-    ],
-    "stop_name": [
-      "Coney Island-Stillwell Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "8:053:030",
-    "stopId": [
-      "D43N"
-    ],
-    "stop_location": [
-      [
-        "40.577422",
-        "-73.981233"
-      ]
-    ],
-    "stop_name": [
-      "Coney Island-Stillwell Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "8:055:00",
-    "stopId": [
-      "D42N"
-    ],
-    "stop_location": [
-      [
-        "40.576127",
-        "-73.975939"
-      ]
-    ],
-    "stop_name": [
-      "W 8 St-NY Aquarium"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "8:056:030",
-    "stopId": [
-      "D41N"
-    ],
-    "stop_location": [
-      [
-        "40.576312",
-        "-73.968501"
-      ]
-    ],
-    "stop_name": [
-      "Ocean Pkwy"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "8:058:030",
-    "stopId": [
-      "D40N"
-    ],
-    "stop_location": [
-      [
-        "40.577621",
-        "-73.961376"
-      ]
-    ],
-    "stop_name": [
-      "Brighton Beach"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:00:030",
-    "stopId": [
-      "D39N"
-    ],
-    "stop_location": [
-      [
-        "40.586896",
-        "-73.954155"
-      ]
-    ],
-    "stop_name": [
-      "Sheepshead Bay"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:02:030",
-    "stopId": [
-      "D38N"
-    ],
-    "stop_location": [
-      [
-        "40.595246",
-        "-73.955161"
-      ]
-    ],
-    "stop_name": [
-      "Neck Rd"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:03:030",
-    "stopId": [
-      "D37N"
-    ],
-    "stop_location": [
-      [
-        "40.5993",
-        "-73.955929"
-      ]
-    ],
-    "stop_name": [
-      "Avenue U"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:06:00",
-    "stopId": [
-      "D35N"
-    ],
-    "stop_location": [
-      [
-        "40.60867",
-        "-73.957734"
-      ]
-    ],
-    "stop_name": [
-      "Kings Hwy"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:08:030",
-    "stopId": [
-      "D34N"
-    ],
-    "stop_location": [
-      [
-        "40.617618",
-        "-73.959399"
-      ]
-    ],
-    "stop_name": [
-      "Avenue M"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:010:00",
-    "stopId": [
-      "D33N"
-    ],
-    "stop_location": [
-      [
-        "40.625039",
-        "-73.960803"
-      ]
-    ],
-    "stop_name": [
-      "Avenue J"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:011:030",
-    "stopId": [
-      "D32N"
-    ],
-    "stop_location": [
-      [
-        "40.62927",
-        "-73.961639"
-      ]
-    ],
-    "stop_name": [
-      "Avenue H"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:012:030",
-    "stopId": [
-      "D31N"
-    ],
-    "stop_location": [
-      [
-        "40.635082",
-        "-73.962793"
-      ]
-    ],
-    "stop_name": [
-      "Newkirk Plaza"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:014:00",
-    "stopId": [
-      "D30N"
-    ],
-    "stop_location": [
-      [
-        "40.640927",
-        "-73.963891"
-      ]
-    ],
-    "stop_name": [
-      "Cortelyou Rd"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:015:00",
-    "stopId": [
-      "D29N"
-    ],
-    "stop_location": [
-      [
-        "40.644031",
-        "-73.964492"
-      ]
-    ],
-    "stop_name": [
-      "Beverley Rd"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:016:030",
-    "stopId": [
-      "D28N"
-    ],
-    "stop_location": [
-      [
-        "40.650527",
-        "-73.962982"
-      ]
-    ],
-    "stop_name": [
-      "Church Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:018:00",
-    "stopId": [
-      "D27N"
-    ],
-    "stop_location": [
-      [
-        "40.655292",
-        "-73.961495"
-      ]
-    ],
-    "stop_name": [
-      "Parkside Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:019:030",
-    "stopId": [
-      "D26N"
-    ],
-    "stop_location": [
-      [
-        "40.661614",
-        "-73.962246"
-      ]
-    ],
-    "stop_name": [
-      "Prospect Park"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:023:030",
-    "stopId": [
-      "D25N"
-    ],
-    "stop_location": [
-      [
-        "40.67705",
-        "-73.972367"
-      ]
-    ],
-    "stop_name": [
-      "7 Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:026:00",
-    "stopId": [
-      "D24N"
-    ],
-    "stop_location": [
-      [
-        "40.68446",
-        "-73.97689"
-      ]
-    ],
-    "stop_name": [
-      "Atlantic Av-Barclays Ctr"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:027:030",
-    "stopId": [
-      "R30N"
-    ],
-    "stop_location": [
-      [
-        "40.690635",
-        "-73.981824"
-      ]
-    ],
-    "stop_name": [
-      "DeKalb Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:036:00",
-    "stopId": [
-      "Q01N"
-    ],
-    "stop_location": [
-      [
-        "40.718383",
-        "-74.00046"
-      ]
-    ],
-    "stop_name": [
-      "Canal St"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:040:030",
-    "stopId": [
-      "R20N"
-    ],
-    "stop_location": [
-      [
-        "40.735736",
-        "-73.990568"
-      ]
-    ],
-    "stop_name": [
-      "14 St-Union Sq"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:043:030",
-    "stopId": [
-      "R17N"
-    ],
-    "stop_location": [
-      [
-        "40.749567",
-        "-73.98795"
-      ]
-    ],
-    "stop_name": [
-      "34 St-Herald Sq"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:045:00",
-    "stopId": [
-      "R16N"
-    ],
-    "stop_location": [
-      [
-        "40.754672",
-        "-73.986754"
-      ]
-    ],
-    "stop_name": [
-      "Times Sq-42 St"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:048:00",
-    "stopId": [
-      "R14N"
-    ],
-    "stop_location": [
-      [
-        "40.764664",
-        "-73.980658"
-      ]
-    ],
-    "stop_name": [
-      "57 St-7 Av"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:050:030",
-    "stopId": [
-      "B08N"
-    ],
-    "stop_location": [
-      [
-        "40.764629",
-        "-73.966113"
-      ]
-    ],
-    "stop_name": [
-      "Lexington Av/63 St"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:052:030",
-    "stopId": [
-      "Q03N"
-    ],
-    "stop_location": [
-      [
-        "40.768799",
-        "-73.958424"
-      ]
-    ],
-    "stop_name": [
-      "72 St"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:055:00",
-    "stopId": [
-      "Q04N"
-    ],
-    "stop_location": [
-      [
-        "40.777891",
-        "-73.951787"
-      ]
-    ],
-    "stop_name": [
-      "86 St"
-    ]
-  },
-  {
-    "trainId": "053350_Q..N",
-    "arrival": "9:057:00",
-    "stopId": [
-      "Q05N"
-    ],
-    "stop_location": [
-      [
-        "40.784318",
-        "-73.947152"
-      ]
-    ],
-    "stop_name": [
-      "96 St"
-    ]
-  },
-  {
-    "trainId": "052950_Q..S",
-    "arrival": "8:049:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:016:036",
     "stopId": [
       "Q05S"
     ],
@@ -4926,8 +1968,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "8:051:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:017:041",
     "stopId": [
       "Q04S"
     ],
@@ -4942,8 +1984,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "8:053:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:019:041",
     "stopId": [
       "Q03S"
     ],
@@ -4958,8 +2000,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "8:055:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:021:041",
     "stopId": [
       "B08S"
     ],
@@ -4974,8 +2016,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "8:059:045",
+    "trainId": "139150_Q..S",
+    "arrival": "23:024:041",
     "stopId": [
       "R14S"
     ],
@@ -4990,8 +2032,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:04:00",
+    "trainId": "139150_Q..S",
+    "arrival": "23:027:041",
     "stopId": [
       "R16S"
     ],
@@ -5006,8 +2048,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:05:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:029:026",
     "stopId": [
       "R17S"
     ],
@@ -5022,8 +2064,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:08:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:032:011",
     "stopId": [
       "R20S"
     ],
@@ -5038,8 +2080,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:012:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:036:011",
     "stopId": [
       "Q01S"
     ],
@@ -5054,8 +2096,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:022:00",
+    "trainId": "139150_Q..S",
+    "arrival": "23:046:041",
     "stopId": [
       "R30S"
     ],
@@ -5070,8 +2112,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:023:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:048:011",
     "stopId": [
       "D24S"
     ],
@@ -5086,8 +2128,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:026:00",
+    "trainId": "139150_Q..S",
+    "arrival": "23:050:041",
     "stopId": [
       "D25S"
     ],
@@ -5102,8 +2144,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:030:00",
+    "trainId": "139150_Q..S",
+    "arrival": "23:054:041",
     "stopId": [
       "D26S"
     ],
@@ -5118,8 +2160,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:031:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:056:011",
     "stopId": [
       "D27S"
     ],
@@ -5134,8 +2176,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:033:00",
+    "trainId": "139150_Q..S",
+    "arrival": "23:057:041",
     "stopId": [
       "D28S"
     ],
@@ -5150,8 +2192,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:034:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:059:011",
     "stopId": [
       "D29S"
     ],
@@ -5166,8 +2208,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:035:030",
+    "trainId": "139150_Q..S",
+    "arrival": "23:059:041",
     "stopId": [
       "D30S"
     ],
@@ -5182,8 +2224,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:037:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:01:011",
     "stopId": [
       "D31S"
     ],
@@ -5198,8 +2240,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:038:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:02:041",
     "stopId": [
       "D32S"
     ],
@@ -5214,8 +2256,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:039:030",
+    "trainId": "139150_Q..S",
+    "arrival": "0:03:041",
     "stopId": [
       "D33S"
     ],
@@ -5230,8 +2272,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:041:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:05:041",
     "stopId": [
       "D34S"
     ],
@@ -5246,8 +2288,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:043:030",
+    "trainId": "139150_Q..S",
+    "arrival": "0:07:041",
     "stopId": [
       "D35S"
     ],
@@ -5262,8 +2304,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:046:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:010:011",
     "stopId": [
       "D37S"
     ],
@@ -5278,8 +2320,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:047:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:011:011",
     "stopId": [
       "D38S"
     ],
@@ -5294,8 +2336,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:049:030",
+    "trainId": "139150_Q..S",
+    "arrival": "0:013:041",
     "stopId": [
       "D39S"
     ],
@@ -5310,8 +2352,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:052:015",
+    "trainId": "139150_Q..S",
+    "arrival": "0:016:011",
     "stopId": [
       "D40S"
     ],
@@ -5326,8 +2368,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:055:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:018:041",
     "stopId": [
       "D41S"
     ],
@@ -5342,8 +2384,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:057:00",
+    "trainId": "139150_Q..S",
+    "arrival": "0:020:041",
     "stopId": [
       "D42S"
     ],
@@ -5358,8 +2400,8 @@
     ]
   },
   {
-    "trainId": "052950_Q..S",
-    "arrival": "9:058:030",
+    "trainId": "139150_Q..S",
+    "arrival": "0:022:011",
     "stopId": [
       "D43S"
     ],
@@ -5371,6 +2413,3238 @@
     ],
     "stop_name": [
       "Coney Island-Stillwell Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:016:036",
+    "stopId": [
+      "D43N"
+    ],
+    "stop_location": [
+      [
+        "40.577422",
+        "-73.981233"
+      ]
+    ],
+    "stop_name": [
+      "Coney Island-Stillwell Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:016:036",
+    "stopId": [
+      "D42N"
+    ],
+    "stop_location": [
+      [
+        "40.576127",
+        "-73.975939"
+      ]
+    ],
+    "stop_name": [
+      "W 8 St-NY Aquarium"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:018:06",
+    "stopId": [
+      "D41N"
+    ],
+    "stop_location": [
+      [
+        "40.576312",
+        "-73.968501"
+      ]
+    ],
+    "stop_name": [
+      "Ocean Pkwy"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:020:06",
+    "stopId": [
+      "D40N"
+    ],
+    "stop_location": [
+      [
+        "40.577621",
+        "-73.961376"
+      ]
+    ],
+    "stop_name": [
+      "Brighton Beach"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:022:06",
+    "stopId": [
+      "D39N"
+    ],
+    "stop_location": [
+      [
+        "40.586896",
+        "-73.954155"
+      ]
+    ],
+    "stop_name": [
+      "Sheepshead Bay"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:024:06",
+    "stopId": [
+      "D38N"
+    ],
+    "stop_location": [
+      [
+        "40.595246",
+        "-73.955161"
+      ]
+    ],
+    "stop_name": [
+      "Neck Rd"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:025:06",
+    "stopId": [
+      "D37N"
+    ],
+    "stop_location": [
+      [
+        "40.5993",
+        "-73.955929"
+      ]
+    ],
+    "stop_name": [
+      "Avenue U"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:027:06",
+    "stopId": [
+      "D35N"
+    ],
+    "stop_location": [
+      [
+        "40.60867",
+        "-73.957734"
+      ]
+    ],
+    "stop_name": [
+      "Kings Hwy"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:029:06",
+    "stopId": [
+      "D34N"
+    ],
+    "stop_location": [
+      [
+        "40.617618",
+        "-73.959399"
+      ]
+    ],
+    "stop_name": [
+      "Avenue M"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:031:06",
+    "stopId": [
+      "D33N"
+    ],
+    "stop_location": [
+      [
+        "40.625039",
+        "-73.960803"
+      ]
+    ],
+    "stop_name": [
+      "Avenue J"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:032:06",
+    "stopId": [
+      "D32N"
+    ],
+    "stop_location": [
+      [
+        "40.62927",
+        "-73.961639"
+      ]
+    ],
+    "stop_name": [
+      "Avenue H"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:033:036",
+    "stopId": [
+      "D31N"
+    ],
+    "stop_location": [
+      [
+        "40.635082",
+        "-73.962793"
+      ]
+    ],
+    "stop_name": [
+      "Newkirk Plaza"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:035:06",
+    "stopId": [
+      "D30N"
+    ],
+    "stop_location": [
+      [
+        "40.640927",
+        "-73.963891"
+      ]
+    ],
+    "stop_name": [
+      "Cortelyou Rd"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:035:036",
+    "stopId": [
+      "D29N"
+    ],
+    "stop_location": [
+      [
+        "40.644031",
+        "-73.964492"
+      ]
+    ],
+    "stop_name": [
+      "Beverley Rd"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:037:06",
+    "stopId": [
+      "D28N"
+    ],
+    "stop_location": [
+      [
+        "40.650527",
+        "-73.962982"
+      ]
+    ],
+    "stop_name": [
+      "Church Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:038:036",
+    "stopId": [
+      "D27N"
+    ],
+    "stop_location": [
+      [
+        "40.655292",
+        "-73.961495"
+      ]
+    ],
+    "stop_name": [
+      "Parkside Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:040:06",
+    "stopId": [
+      "D26N"
+    ],
+    "stop_location": [
+      [
+        "40.661614",
+        "-73.962246"
+      ]
+    ],
+    "stop_name": [
+      "Prospect Park"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:043:036",
+    "stopId": [
+      "D25N"
+    ],
+    "stop_location": [
+      [
+        "40.67705",
+        "-73.972367"
+      ]
+    ],
+    "stop_name": [
+      "7 Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:045:036",
+    "stopId": [
+      "D24N"
+    ],
+    "stop_location": [
+      [
+        "40.68446",
+        "-73.97689"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:047:06",
+    "stopId": [
+      "R30N"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:055:06",
+    "stopId": [
+      "Q01N"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:057:06",
+    "stopId": [
+      "R22N"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "23:059:06",
+    "stopId": [
+      "R21N"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:01:06",
+    "stopId": [
+      "R20N"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:02:036",
+    "stopId": [
+      "R19N"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:04:06",
+    "stopId": [
+      "R18N"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:05:06",
+    "stopId": [
+      "R17N"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:06:036",
+    "stopId": [
+      "R16N"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:08:036",
+    "stopId": [
+      "R15N"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:010:036",
+    "stopId": [
+      "R14N"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:013:06",
+    "stopId": [
+      "B08N"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:015:06",
+    "stopId": [
+      "Q03N"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:019:021",
+    "stopId": [
+      "Q04N"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "139500_Q..N",
+    "arrival": "0:023:06",
+    "stopId": [
+      "Q05N"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:025:030",
+    "stopId": [
+      "Q05S"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:027:030",
+    "stopId": [
+      "Q04S"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:029:030",
+    "stopId": [
+      "Q03S"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:031:030",
+    "stopId": [
+      "B08S"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:034:030",
+    "stopId": [
+      "R14S"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:036:00",
+    "stopId": [
+      "R15S"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:037:030",
+    "stopId": [
+      "R16S"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:039:030",
+    "stopId": [
+      "R17S"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:040:030",
+    "stopId": [
+      "R18S"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:041:030",
+    "stopId": [
+      "R19S"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:043:00",
+    "stopId": [
+      "R20S"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:044:030",
+    "stopId": [
+      "R21S"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:046:00",
+    "stopId": [
+      "R22S"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:048:00",
+    "stopId": [
+      "Q01S"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:056:00",
+    "stopId": [
+      "R30S"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "140550_Q..S",
+    "arrival": "23:059:00",
+    "stopId": [
+      "R31S"
+    ],
+    "stop_location": [
+      [
+        "40.683666",
+        "-73.97881"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:026:00",
+    "stopId": [
+      "D43N"
+    ],
+    "stop_location": [
+      [
+        "40.577422",
+        "-73.981233"
+      ]
+    ],
+    "stop_name": [
+      "Coney Island-Stillwell Av"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:027:030",
+    "stopId": [
+      "D42N"
+    ],
+    "stop_location": [
+      [
+        "40.576127",
+        "-73.975939"
+      ]
+    ],
+    "stop_name": [
+      "W 8 St-NY Aquarium"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:029:00",
+    "stopId": [
+      "D41N"
+    ],
+    "stop_location": [
+      [
+        "40.576312",
+        "-73.968501"
+      ]
+    ],
+    "stop_name": [
+      "Ocean Pkwy"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:031:00",
+    "stopId": [
+      "D40N"
+    ],
+    "stop_location": [
+      [
+        "40.577621",
+        "-73.961376"
+      ]
+    ],
+    "stop_name": [
+      "Brighton Beach"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:033:00",
+    "stopId": [
+      "D39N"
+    ],
+    "stop_location": [
+      [
+        "40.586896",
+        "-73.954155"
+      ]
+    ],
+    "stop_name": [
+      "Sheepshead Bay"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:035:00",
+    "stopId": [
+      "D38N"
+    ],
+    "stop_location": [
+      [
+        "40.595246",
+        "-73.955161"
+      ]
+    ],
+    "stop_name": [
+      "Neck Rd"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:036:00",
+    "stopId": [
+      "D37N"
+    ],
+    "stop_location": [
+      [
+        "40.5993",
+        "-73.955929"
+      ]
+    ],
+    "stop_name": [
+      "Avenue U"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:038:00",
+    "stopId": [
+      "D35N"
+    ],
+    "stop_location": [
+      [
+        "40.60867",
+        "-73.957734"
+      ]
+    ],
+    "stop_name": [
+      "Kings Hwy"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:040:00",
+    "stopId": [
+      "D34N"
+    ],
+    "stop_location": [
+      [
+        "40.617618",
+        "-73.959399"
+      ]
+    ],
+    "stop_name": [
+      "Avenue M"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:042:00",
+    "stopId": [
+      "D33N"
+    ],
+    "stop_location": [
+      [
+        "40.625039",
+        "-73.960803"
+      ]
+    ],
+    "stop_name": [
+      "Avenue J"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:043:00",
+    "stopId": [
+      "D32N"
+    ],
+    "stop_location": [
+      [
+        "40.62927",
+        "-73.961639"
+      ]
+    ],
+    "stop_name": [
+      "Avenue H"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:044:030",
+    "stopId": [
+      "D31N"
+    ],
+    "stop_location": [
+      [
+        "40.635082",
+        "-73.962793"
+      ]
+    ],
+    "stop_name": [
+      "Newkirk Plaza"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:046:00",
+    "stopId": [
+      "D30N"
+    ],
+    "stop_location": [
+      [
+        "40.640927",
+        "-73.963891"
+      ]
+    ],
+    "stop_name": [
+      "Cortelyou Rd"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:046:030",
+    "stopId": [
+      "D29N"
+    ],
+    "stop_location": [
+      [
+        "40.644031",
+        "-73.964492"
+      ]
+    ],
+    "stop_name": [
+      "Beverley Rd"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:048:00",
+    "stopId": [
+      "D28N"
+    ],
+    "stop_location": [
+      [
+        "40.650527",
+        "-73.962982"
+      ]
+    ],
+    "stop_name": [
+      "Church Av"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:049:030",
+    "stopId": [
+      "D27N"
+    ],
+    "stop_location": [
+      [
+        "40.655292",
+        "-73.961495"
+      ]
+    ],
+    "stop_name": [
+      "Parkside Av"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:051:00",
+    "stopId": [
+      "D26N"
+    ],
+    "stop_location": [
+      [
+        "40.661614",
+        "-73.962246"
+      ]
+    ],
+    "stop_name": [
+      "Prospect Park"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:054:030",
+    "stopId": [
+      "D25N"
+    ],
+    "stop_location": [
+      [
+        "40.67705",
+        "-73.972367"
+      ]
+    ],
+    "stop_name": [
+      "7 Av"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:056:030",
+    "stopId": [
+      "D24N"
+    ],
+    "stop_location": [
+      [
+        "40.68446",
+        "-73.97689"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "23:058:00",
+    "stopId": [
+      "R30N"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:06:00",
+    "stopId": [
+      "Q01N"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:08:00",
+    "stopId": [
+      "R22N"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:09:030",
+    "stopId": [
+      "R21N"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:011:00",
+    "stopId": [
+      "R20N"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:012:030",
+    "stopId": [
+      "R19N"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:013:030",
+    "stopId": [
+      "R18N"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:014:030",
+    "stopId": [
+      "R17N"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:016:00",
+    "stopId": [
+      "R16N"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:018:00",
+    "stopId": [
+      "R15N"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:020:00",
+    "stopId": [
+      "R14N"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:022:030",
+    "stopId": [
+      "B08N"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:024:030",
+    "stopId": [
+      "Q03N"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:028:045",
+    "stopId": [
+      "Q04N"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "140600_Q..N",
+    "arrival": "0:032:030",
+    "stopId": [
+      "Q05N"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:033:030",
+    "stopId": [
+      "Q05S"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:035:030",
+    "stopId": [
+      "Q04S"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:037:030",
+    "stopId": [
+      "Q03S"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:039:030",
+    "stopId": [
+      "B08S"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:042:045",
+    "stopId": [
+      "R14S"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:044:030",
+    "stopId": [
+      "R15S"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:046:00",
+    "stopId": [
+      "R16S"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:048:00",
+    "stopId": [
+      "R17S"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:049:00",
+    "stopId": [
+      "R18S"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:050:00",
+    "stopId": [
+      "R19S"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:051:030",
+    "stopId": [
+      "R20S"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:053:00",
+    "stopId": [
+      "R21S"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:054:030",
+    "stopId": [
+      "R22S"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "23:056:030",
+    "stopId": [
+      "Q01S"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "0:05:030",
+    "stopId": [
+      "R30S"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "141350_Q..S",
+    "arrival": "0:08:030",
+    "stopId": [
+      "R31S"
+    ],
+    "stop_location": [
+      [
+        "40.683666",
+        "-73.97881"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:041:00",
+    "stopId": [
+      "D43N"
+    ],
+    "stop_location": [
+      [
+        "40.577422",
+        "-73.981233"
+      ]
+    ],
+    "stop_name": [
+      "Coney Island-Stillwell Av"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:042:030",
+    "stopId": [
+      "D42N"
+    ],
+    "stop_location": [
+      [
+        "40.576127",
+        "-73.975939"
+      ]
+    ],
+    "stop_name": [
+      "W 8 St-NY Aquarium"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:044:00",
+    "stopId": [
+      "D41N"
+    ],
+    "stop_location": [
+      [
+        "40.576312",
+        "-73.968501"
+      ]
+    ],
+    "stop_name": [
+      "Ocean Pkwy"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:046:00",
+    "stopId": [
+      "D40N"
+    ],
+    "stop_location": [
+      [
+        "40.577621",
+        "-73.961376"
+      ]
+    ],
+    "stop_name": [
+      "Brighton Beach"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:048:00",
+    "stopId": [
+      "D39N"
+    ],
+    "stop_location": [
+      [
+        "40.586896",
+        "-73.954155"
+      ]
+    ],
+    "stop_name": [
+      "Sheepshead Bay"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:050:00",
+    "stopId": [
+      "D38N"
+    ],
+    "stop_location": [
+      [
+        "40.595246",
+        "-73.955161"
+      ]
+    ],
+    "stop_name": [
+      "Neck Rd"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:051:00",
+    "stopId": [
+      "D37N"
+    ],
+    "stop_location": [
+      [
+        "40.5993",
+        "-73.955929"
+      ]
+    ],
+    "stop_name": [
+      "Avenue U"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:053:00",
+    "stopId": [
+      "D35N"
+    ],
+    "stop_location": [
+      [
+        "40.60867",
+        "-73.957734"
+      ]
+    ],
+    "stop_name": [
+      "Kings Hwy"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:055:00",
+    "stopId": [
+      "D34N"
+    ],
+    "stop_location": [
+      [
+        "40.617618",
+        "-73.959399"
+      ]
+    ],
+    "stop_name": [
+      "Avenue M"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:057:00",
+    "stopId": [
+      "D33N"
+    ],
+    "stop_location": [
+      [
+        "40.625039",
+        "-73.960803"
+      ]
+    ],
+    "stop_name": [
+      "Avenue J"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:058:00",
+    "stopId": [
+      "D32N"
+    ],
+    "stop_location": [
+      [
+        "40.62927",
+        "-73.961639"
+      ]
+    ],
+    "stop_name": [
+      "Avenue H"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "23:059:030",
+    "stopId": [
+      "D31N"
+    ],
+    "stop_location": [
+      [
+        "40.635082",
+        "-73.962793"
+      ]
+    ],
+    "stop_name": [
+      "Newkirk Plaza"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:01:00",
+    "stopId": [
+      "D30N"
+    ],
+    "stop_location": [
+      [
+        "40.640927",
+        "-73.963891"
+      ]
+    ],
+    "stop_name": [
+      "Cortelyou Rd"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:01:030",
+    "stopId": [
+      "D29N"
+    ],
+    "stop_location": [
+      [
+        "40.644031",
+        "-73.964492"
+      ]
+    ],
+    "stop_name": [
+      "Beverley Rd"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:03:00",
+    "stopId": [
+      "D28N"
+    ],
+    "stop_location": [
+      [
+        "40.650527",
+        "-73.962982"
+      ]
+    ],
+    "stop_name": [
+      "Church Av"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:04:030",
+    "stopId": [
+      "D27N"
+    ],
+    "stop_location": [
+      [
+        "40.655292",
+        "-73.961495"
+      ]
+    ],
+    "stop_name": [
+      "Parkside Av"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:06:00",
+    "stopId": [
+      "D26N"
+    ],
+    "stop_location": [
+      [
+        "40.661614",
+        "-73.962246"
+      ]
+    ],
+    "stop_name": [
+      "Prospect Park"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:010:030",
+    "stopId": [
+      "D25N"
+    ],
+    "stop_location": [
+      [
+        "40.67705",
+        "-73.972367"
+      ]
+    ],
+    "stop_name": [
+      "7 Av"
+    ]
+  },
+  {
+    "trainId": "142100_Q..N",
+    "arrival": "0:013:00",
+    "stopId": [
+      "D24N"
+    ],
+    "stop_location": [
+      [
+        "40.68446",
+        "-73.97689"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:045:030",
+    "stopId": [
+      "Q05S"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:047:030",
+    "stopId": [
+      "Q04S"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:049:030",
+    "stopId": [
+      "Q03S"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:051:030",
+    "stopId": [
+      "B08S"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:054:045",
+    "stopId": [
+      "R14S"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:056:030",
+    "stopId": [
+      "R15S"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "23:058:00",
+    "stopId": [
+      "R16S"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:00:00",
+    "stopId": [
+      "R17S"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:01:00",
+    "stopId": [
+      "R18S"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:02:00",
+    "stopId": [
+      "R19S"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:03:030",
+    "stopId": [
+      "R20S"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:05:00",
+    "stopId": [
+      "R21S"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:06:030",
+    "stopId": [
+      "R22S"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:08:030",
+    "stopId": [
+      "Q01S"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:016:030",
+    "stopId": [
+      "R30S"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "142550_Q..S",
+    "arrival": "0:019:030",
+    "stopId": [
+      "R31S"
+    ],
+    "stop_location": [
+      [
+        "40.683666",
+        "-73.97881"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "23:059:00",
+    "stopId": [
+      "Q05S"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:01:00",
+    "stopId": [
+      "Q04S"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:03:00",
+    "stopId": [
+      "Q03S"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:05:00",
+    "stopId": [
+      "B08S"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:08:00",
+    "stopId": [
+      "R14S"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:09:030",
+    "stopId": [
+      "R15S"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:011:00",
+    "stopId": [
+      "R16S"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:012:030",
+    "stopId": [
+      "R17S"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:013:030",
+    "stopId": [
+      "R18S"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:014:030",
+    "stopId": [
+      "R19S"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:016:00",
+    "stopId": [
+      "R20S"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:017:030",
+    "stopId": [
+      "R21S"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:019:00",
+    "stopId": [
+      "R22S"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:021:00",
+    "stopId": [
+      "Q01S"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:029:00",
+    "stopId": [
+      "R30S"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "143900_Q..S",
+    "arrival": "0:032:00",
+    "stopId": [
+      "R31S"
+    ],
+    "stop_location": [
+      [
+        "40.683666",
+        "-73.97881"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:08:00",
+    "stopId": [
+      "R31N"
+    ],
+    "stop_location": [
+      [
+        "40.683666",
+        "-73.97881"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:011:00",
+    "stopId": [
+      "R30N"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:019:00",
+    "stopId": [
+      "Q01N"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:021:00",
+    "stopId": [
+      "R22N"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:022:030",
+    "stopId": [
+      "R21N"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:024:00",
+    "stopId": [
+      "R20N"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:025:030",
+    "stopId": [
+      "R19N"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:026:030",
+    "stopId": [
+      "R18N"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:027:030",
+    "stopId": [
+      "R17N"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:029:00",
+    "stopId": [
+      "R16N"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:031:00",
+    "stopId": [
+      "R15N"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:034:045",
+    "stopId": [
+      "R14N"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:039:00",
+    "stopId": [
+      "B08N"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:041:00",
+    "stopId": [
+      "Q03N"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:045:015",
+    "stopId": [
+      "Q04N"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "000800_Q..N",
+    "arrival": "0:049:00",
+    "stopId": [
+      "Q05N"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:011:00",
+    "stopId": [
+      "D43N"
+    ],
+    "stop_location": [
+      [
+        "40.577422",
+        "-73.981233"
+      ]
+    ],
+    "stop_name": [
+      "Coney Island-Stillwell Av"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:012:030",
+    "stopId": [
+      "D42N"
+    ],
+    "stop_location": [
+      [
+        "40.576127",
+        "-73.975939"
+      ]
+    ],
+    "stop_name": [
+      "W 8 St-NY Aquarium"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:014:00",
+    "stopId": [
+      "D41N"
+    ],
+    "stop_location": [
+      [
+        "40.576312",
+        "-73.968501"
+      ]
+    ],
+    "stop_name": [
+      "Ocean Pkwy"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:016:00",
+    "stopId": [
+      "D40N"
+    ],
+    "stop_location": [
+      [
+        "40.577621",
+        "-73.961376"
+      ]
+    ],
+    "stop_name": [
+      "Brighton Beach"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:018:00",
+    "stopId": [
+      "D39N"
+    ],
+    "stop_location": [
+      [
+        "40.586896",
+        "-73.954155"
+      ]
+    ],
+    "stop_name": [
+      "Sheepshead Bay"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:020:00",
+    "stopId": [
+      "D38N"
+    ],
+    "stop_location": [
+      [
+        "40.595246",
+        "-73.955161"
+      ]
+    ],
+    "stop_name": [
+      "Neck Rd"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:021:00",
+    "stopId": [
+      "D37N"
+    ],
+    "stop_location": [
+      [
+        "40.5993",
+        "-73.955929"
+      ]
+    ],
+    "stop_name": [
+      "Avenue U"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:023:00",
+    "stopId": [
+      "D35N"
+    ],
+    "stop_location": [
+      [
+        "40.60867",
+        "-73.957734"
+      ]
+    ],
+    "stop_name": [
+      "Kings Hwy"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:025:00",
+    "stopId": [
+      "D34N"
+    ],
+    "stop_location": [
+      [
+        "40.617618",
+        "-73.959399"
+      ]
+    ],
+    "stop_name": [
+      "Avenue M"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:027:00",
+    "stopId": [
+      "D33N"
+    ],
+    "stop_location": [
+      [
+        "40.625039",
+        "-73.960803"
+      ]
+    ],
+    "stop_name": [
+      "Avenue J"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:028:00",
+    "stopId": [
+      "D32N"
+    ],
+    "stop_location": [
+      [
+        "40.62927",
+        "-73.961639"
+      ]
+    ],
+    "stop_name": [
+      "Avenue H"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:029:030",
+    "stopId": [
+      "D31N"
+    ],
+    "stop_location": [
+      [
+        "40.635082",
+        "-73.962793"
+      ]
+    ],
+    "stop_name": [
+      "Newkirk Plaza"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:031:00",
+    "stopId": [
+      "D30N"
+    ],
+    "stop_location": [
+      [
+        "40.640927",
+        "-73.963891"
+      ]
+    ],
+    "stop_name": [
+      "Cortelyou Rd"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:031:030",
+    "stopId": [
+      "D29N"
+    ],
+    "stop_location": [
+      [
+        "40.644031",
+        "-73.964492"
+      ]
+    ],
+    "stop_name": [
+      "Beverley Rd"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:033:00",
+    "stopId": [
+      "D28N"
+    ],
+    "stop_location": [
+      [
+        "40.650527",
+        "-73.962982"
+      ]
+    ],
+    "stop_name": [
+      "Church Av"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:034:030",
+    "stopId": [
+      "D27N"
+    ],
+    "stop_location": [
+      [
+        "40.655292",
+        "-73.961495"
+      ]
+    ],
+    "stop_name": [
+      "Parkside Av"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:036:00",
+    "stopId": [
+      "D26N"
+    ],
+    "stop_location": [
+      [
+        "40.661614",
+        "-73.962246"
+      ]
+    ],
+    "stop_name": [
+      "Prospect Park"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:040:030",
+    "stopId": [
+      "D25N"
+    ],
+    "stop_location": [
+      [
+        "40.67705",
+        "-73.972367"
+      ]
+    ],
+    "stop_name": [
+      "7 Av"
+    ]
+  },
+  {
+    "trainId": "001100_Q..N",
+    "arrival": "0:043:00",
+    "stopId": [
+      "D24N"
+    ],
+    "stop_location": [
+      [
+        "40.68446",
+        "-73.97689"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:013:00",
+    "stopId": [
+      "Q05S"
+    ],
+    "stop_location": [
+      [
+        "40.784318",
+        "-73.947152"
+      ]
+    ],
+    "stop_name": [
+      "96 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:015:00",
+    "stopId": [
+      "Q04S"
+    ],
+    "stop_location": [
+      [
+        "40.777891",
+        "-73.951787"
+      ]
+    ],
+    "stop_name": [
+      "86 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:017:00",
+    "stopId": [
+      "Q03S"
+    ],
+    "stop_location": [
+      [
+        "40.768799",
+        "-73.958424"
+      ]
+    ],
+    "stop_name": [
+      "72 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:019:00",
+    "stopId": [
+      "B08S"
+    ],
+    "stop_location": [
+      [
+        "40.764629",
+        "-73.966113"
+      ]
+    ],
+    "stop_name": [
+      "Lexington Av/63 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:022:00",
+    "stopId": [
+      "R14S"
+    ],
+    "stop_location": [
+      [
+        "40.764664",
+        "-73.980658"
+      ]
+    ],
+    "stop_name": [
+      "57 St-7 Av"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:023:030",
+    "stopId": [
+      "R15S"
+    ],
+    "stop_location": [
+      [
+        "40.759901",
+        "-73.984139"
+      ]
+    ],
+    "stop_name": [
+      "49 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:025:00",
+    "stopId": [
+      "R16S"
+    ],
+    "stop_location": [
+      [
+        "40.754672",
+        "-73.986754"
+      ]
+    ],
+    "stop_name": [
+      "Times Sq-42 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:026:030",
+    "stopId": [
+      "R17S"
+    ],
+    "stop_location": [
+      [
+        "40.749567",
+        "-73.98795"
+      ]
+    ],
+    "stop_name": [
+      "34 St-Herald Sq"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:027:030",
+    "stopId": [
+      "R18S"
+    ],
+    "stop_location": [
+      [
+        "40.745494",
+        "-73.988691"
+      ]
+    ],
+    "stop_name": [
+      "28 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:028:030",
+    "stopId": [
+      "R19S"
+    ],
+    "stop_location": [
+      [
+        "40.741303",
+        "-73.989344"
+      ]
+    ],
+    "stop_name": [
+      "23 St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:030:00",
+    "stopId": [
+      "R20S"
+    ],
+    "stop_location": [
+      [
+        "40.735736",
+        "-73.990568"
+      ]
+    ],
+    "stop_name": [
+      "14 St-Union Sq"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:031:030",
+    "stopId": [
+      "R21S"
+    ],
+    "stop_location": [
+      [
+        "40.730328",
+        "-73.992629"
+      ]
+    ],
+    "stop_name": [
+      "8 St-NYU"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:033:00",
+    "stopId": [
+      "R22S"
+    ],
+    "stop_location": [
+      [
+        "40.724329",
+        "-73.997702"
+      ]
+    ],
+    "stop_name": [
+      "Prince St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:035:00",
+    "stopId": [
+      "Q01S"
+    ],
+    "stop_location": [
+      [
+        "40.718383",
+        "-74.00046"
+      ]
+    ],
+    "stop_name": [
+      "Canal St"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:043:00",
+    "stopId": [
+      "R30S"
+    ],
+    "stop_location": [
+      [
+        "40.690635",
+        "-73.981824"
+      ]
+    ],
+    "stop_name": [
+      "DeKalb Av"
+    ]
+  },
+  {
+    "trainId": "001300_Q..S",
+    "arrival": "0:046:00",
+    "stopId": [
+      "R31S"
+    ],
+    "stop_location": [
+      [
+        "40.683666",
+        "-73.97881"
+      ]
+    ],
+    "stop_name": [
+      "Atlantic Av-Barclays Ctr"
     ]
   }
 ]
