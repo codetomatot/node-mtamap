@@ -101,18 +101,9 @@ function removeDivide() {
         temp_indices.shift();
         temp_indices = temp_indices.map(val => val -= 1);
         init = removeItem(init, temp_indices[0]+1);
-        // console.log(init);
-        // console.log(temp_indices);
     }
-
     return init;
-
 }
-
-// let len = maintab.childElementCount - na.length - 1;
-// console.log(allChildren.pop(0));
-// console.log(allChildren);
-
 
 setInterval(() => {
     console.log(dbundle._ot009);
@@ -157,13 +148,27 @@ setInterval(() => {
                     index = modArr.indexOf(0, index+1);
                 }
                 let idsToFill = spliceArray(idtp, na);
-                // console.log(idsToFill);
 
-                //remove extra objects
-                //len of every trip is na[i].length
                 let allnodes = removeDivide();
                 let ttda = spliceArray(allnodes, na);
-                console.log(ttda);
+                
+
+                let dividers = [...document.querySelectorAll(".divide")];
+                let allChildren = [...maintab.children];
+                allChildren.shift();
+                let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
+                let interval = temp_indices.slice(0, temp_indices[0]); 
+                for(let i = 0; i < temp_indices.length; i++) {
+                    for(let j = 0; j < na.length; j++) {
+                        if(na[j].length < interval.length) {
+                            // console.log(allnodes[temp_indices[i]-1]);
+                            // maintab.removeChild(allnodes[temp_indices[i]-1]);
+                            console.log(na);
+                            console.log(na[j] + "       " + interval);
+                        }
+                    }
+                    interval = temp_indices.slice(temp_indices[i], temp_indices[i+1]);
+                }
             }
         });
     });
