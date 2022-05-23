@@ -64,6 +64,7 @@ function toStart_toRecover() {
                 maintab.appendChild(divider);
             }
         });
+        // callWhenReady(); //??????
     });
 }
 toStart_toRecover();
@@ -74,27 +75,66 @@ const countOccur = (arr, value) => {
 function spliceArray(idtp, na) {
     let spliced = [];
     for(let j = 0; j < na.length; j++) {
-        spliced.push(idtp.splice(0, na[j].length));
+        spliced.push(idtp.splice(0, na[j].length)); 
     }
     return spliced;
+} 
+function getLenStop(na, current) {
+    let len;
+    for(let i = 0; i < na.length; i++) {
+        if(na[i].length < current) {
+            len = current.length;
+        }
+    }
 }
+function removeDivide() {
+    let top = document.getElementById("placehold");
+    let dividers = [...document.querySelectorAll(".divide")];
+    let allChildren = [...maintab.children];
+    allChildren.shift();
+    
+    let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
+    const removeItem = (items, i) => items.slice(0, i-1).concat(items.slice(i, items.length));
+
+    let init = removeItem(allChildren, temp_indices[0]+1);
+    while(temp_indices.length != 0) {
+        temp_indices.shift();
+        temp_indices = temp_indices.map(val => val -= 1);
+        init = removeItem(init, temp_indices[0]+1);
+        // console.log(init);
+        // console.log(temp_indices);
+    }
+
+    return init;
+
+}
+
+// let len = maintab.childElementCount - na.length - 1;
+// console.log(allChildren.pop(0));
+// console.log(allChildren);
+
 
 setInterval(() => {
     console.log(dbundle._ot009);
     let dat = finalRequest();
     dat.then((data) => {
-        let objSize = Object.keys(data);
+        //const toHtml = data => data.map(({id, name, randomvalue}) => {
+//   return `<div class="container">
+//   <p class="id">${id}</p>
+//   <p class="name">${name}</p>
+//   <p class="randomval"> ${randomvalue} </p>
+// </div>`
+
+// }).join('')
         var na = [];
 
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
-            // let idtp = document.querySelectorAll(".pid");
             let idtp = [...document.querySelectorAll(".pid")];
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
 
             let modArr = [];
-            let spliced = [];
 
             if(data[key].length < 10) {
                 let count = 0;
@@ -109,14 +149,21 @@ setInterval(() => {
                 for(let i = 0; i < data[key].length; i++) {
                     modArr.push(i);
                 }
-                
                 modArr.push("Q"); //extra end value for functionality
+
                 let index = modArr.indexOf(0);
                 for(let i = 0; i < countOccur(modArr, 0); i++) {
                     na.push(modArr.slice(index, modArr.indexOf(0,index+1)));
                     index = modArr.indexOf(0, index+1);
                 }
                 let idsToFill = spliceArray(idtp, na);
+                // console.log(idsToFill);
+
+                //remove extra objects
+                //len of every trip is na[i].length
+                let allnodes = removeDivide();
+                let ttda = spliceArray(allnodes, na);
+                console.log(ttda);
             }
         });
     });
