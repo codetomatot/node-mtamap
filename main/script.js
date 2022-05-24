@@ -142,8 +142,10 @@ setInterval(() => {
                 }
                 //start changing text content
                 let idsToFill = spliceArray(idtp, na);
+                console.log(typeof idsToFill)
+                //
 
-                
+
                 let allnodes = removeDivide();
                 let ttda = spliceArray(allnodes, na);
 
@@ -155,18 +157,17 @@ setInterval(() => {
                 if(na.length == temp_indices.length) {
                     for(let i = 0; i < temp_indices.length; i++) {
                         if(na[i].length < interval.length) {
-                            console.log("interval len: "+interval.length);
-                            console.log(interval[0]);
+                            // console.log("interval len: "+interval.length);
+                            // console.log(interval[0]);
                             let el = interval[0];
                             let elInx = allChildren.indexOf(el);
                             allChildren.splice(elInx, 1);
-                            console.log(maintab.removeChild(el));
-                        } else {
-                            console.log(na[i]);
+                            // console.log();
+                            maintab.removeChild(el);
                         }
                         interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
                     }
-                } else {
+                } else { //handle ending trips here
                     console.log(na.length + "       " + temp_indices.length);
                     if(na.length-1 == temp_indices.length) {
                         console.log(temp_indices);
