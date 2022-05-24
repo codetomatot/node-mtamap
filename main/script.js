@@ -79,14 +79,7 @@ function spliceArray(idtp, na) {
     }
     return spliced;
 } 
-function getLenStop(na, current) {
-    let len;
-    for(let i = 0; i < na.length; i++) {
-        if(na[i].length < current) {
-            len = current.length;
-        }
-    }
-}
+
 function removeDivide() {
     let top = document.getElementById("placehold");
     let dividers = [...document.querySelectorAll(".divide")];
