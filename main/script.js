@@ -142,11 +142,8 @@ setInterval(() => {
                 }
                 //start changing text content
                 let idsToFill = spliceArray(idtp, na);
-                //
-                //...
-                //end changing text content
 
-                //remove trips, stops, etc.
+                
                 let allnodes = removeDivide();
                 let ttda = spliceArray(allnodes, na);
 
@@ -155,20 +152,26 @@ setInterval(() => {
                 allChildren.shift();
                 let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
                 let interval = allChildren.slice(0, temp_indices[0]); 
-                for(let i = 0; i < temp_indices.length; i++) {
-                    for(let j = i; j < na.length; j++) {
-                        console.log("interval len: "+interval.length + "  for na[j]" + na[j]);
-                        if(na[j].length < interval.length) {
-                            console.log(interval);
-                            console.log(na);
-                            // let toRemove = interval.slice(0, 1);
-                            // console.log(interval);
-                            // console.log(na);
+                if(na.length == temp_indices.length) {
+                    for(let i = 0; i < temp_indices.length; i++) {
+                        if(na[i].length < interval.length) {
+                            console.log("interval len: "+interval.length);
+                            console.log(interval[0]);
+                            let el = interval[0];
+                            let elInx = allChildren.indexOf(el);
+                            allChildren.splice(elInx, 1);
+                            console.log(maintab.removeChild(el));
+                        } else {
+                            console.log(na[i]);
                         }
+                        interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
                     }
-                    interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
+                } else {
+                    console.log(na.length + "       " + temp_indices.length);
+                    if(na.length-1 == temp_indices.length) {
+                        console.log(temp_indices);
+                    }
                 }
-                //end remove trips
             }
         });
     });
