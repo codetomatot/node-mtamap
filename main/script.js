@@ -111,6 +111,7 @@ setInterval(() => {
 
 // }).join('')
         var na = [];
+        let keyholder = [];
 
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
@@ -121,6 +122,7 @@ setInterval(() => {
             let modArr = [];
 
             if(data[key].length < 10) {
+                keyholder.push(data[key]);
                 let count = 0;
                 //data[key] = array of objects: [{...}, {...}]
                 //data[key][i] = object of values {trainid, arrival, location, name}...
@@ -142,7 +144,13 @@ setInterval(() => {
                 }
                 //start changing text content
                 let idsToFill = spliceArray(idtp, na);
-                console.log(typeof idsToFill)
+                // console.log(idsToFill)
+                //na = [[0,1],[0,1,2,3],[0,1,2]...]
+                //keyholder= [ [{}, {}], [{}, {}, {}, {}], [{}, {}, {]}] ...]
+                console.log(keyholder);
+                for(let i = 0; i < idsToFill.length; i++) {
+                    //
+                }
                 //
 
 
