@@ -31,40 +31,27 @@ async function finalRequest() {
     return sort;
 }
 
+const toHtml = data => data.map(({trainId, stop_name, arrival}, count) => {
+    return `<div class="card t${count.toString()}t" id="card">
+              <p class="pid">${trainId}</p>
+              <p class="stop">${stop_name}</p>
+              <p class="time"> ${arrival} </p>
+          </div>`
+  }).join('')
+
 function toStart_toRecover() {
     let fcall = finalRequest();
     let counter = 0;
     fcall.then((data) => {
-        // let tofind = "043300_Q..N";
         Object.keys(data).map((key, index) => {
             if(data[key].length < 10) {
-                for(let i = 0; i < data[key].length; i++) {
-                    const nel = document.createElement("div");
-                    const pid = document.createElement("p");
-                    const pstop = document.createElement("p");
-                    const ptime = document.createElement("p");
-                    pid.innerText = data[key][i].trainId;
-                    pstop.innerText = data[key][i].stop_name;
-                    ptime.innerText = data[key][i].arrival;
-
-                    nel.className = "card t"+counter.toString()+"t"; nel.id = "card";
-                    pid.className = "pid";
-                    pstop.className = "stop";
-                    ptime.className = "time";
-
-                    nel.appendChild(pid); 
-                    nel.appendChild(pstop); 
-                    nel.appendChild(ptime);
-
-                    maintab.appendChild(nel);
-                    counter++;
-                }
+                maintab.innerHTML += toHtml(data[key], counter);
+                counter++;
                 const divider = document.createElement("div");
                 divider.className = "divide";
                 maintab.appendChild(divider);
             }
         });
-        // callWhenReady(); //??????
     });
 }
 toStart_toRecover();
@@ -101,20 +88,14 @@ function removeDivide() {
 setInterval(() => {
     console.log(dbundle._ot009);
     let dat = finalRequest();
+    let count = 0;
     dat.then((data) => {
-        //const toHtml = data => data.map(({id, name, randomvalue}) => {
-//   return `<div class="container">
-//   <p class="id">${id}</p>
-//   <p class="name">${name}</p>
-//   <p class="randomval"> ${randomvalue} </p>
-// </div>`
-
-// }).join('')
         var na = [];
         let keyholder = [];
 
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
+            let divides = document.querySelectorAll(".divider");
             let idtp = [...document.querySelectorAll(".pid")];
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
@@ -123,7 +104,7 @@ setInterval(() => {
 
             if(data[key].length < 10) {
                 keyholder.push(data[key]);
-                let count = 0;
+
                 //data[key] = array of objects: [{...}, {...}]
                 //data[key][i] = object of values {trainid, arrival, location, name}...
                 //idtp is object.
@@ -144,33 +125,40 @@ setInterval(() => {
                 }
                 //start changing text content
                 let idsToFill = spliceArray(idtp, na);
+                if(idsToFill.length === na.length) {
+                    console.log(na);
+                    console.log(idsToFill);
+                    for(let i = 0; i < idsToFill.length; i++) {
+                        if(idsToFill[i].length == na[i].length) {
+                            for(let j = 0; j < idsToFill[i].length; j++) {
+                                idsToFill[i][j].innerText = "new value : "+ data[key][j].trainId;
+                            }
+                        } else if(na[i].length > idsToFill[i].length) {
+                            idsToFill = spliceArray(idtp, na);
+                        }
+                    }
+                } else {
+                    console.log("so far not good");
+                }
                 // console.log(idsToFill)
                 //na = [[0,1],[0,1,2,3],[0,1,2]...]
                 //keyholder= [ [{}, {}], [{}, {}, {}, {}], [{}, {}, {]}] ...]
-                console.log(keyholder);
-                for(let i = 0; i < idsToFill.length; i++) {
-                    //
-                }
-                //
 
 
-                let allnodes = removeDivide();
-                let ttda = spliceArray(allnodes, na);
+                // let allnodes = removeDivide();
+                // let ttda = spliceArray(allnodes, na);
 
                 let dividers = [...document.querySelectorAll(".divide")];
-                let allChildren = [...maintab.children]; //or Array.from(maintab.children)
+                let allChildren = [...maintab.children];
                 allChildren.shift();
                 let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
                 let interval = allChildren.slice(0, temp_indices[0]); 
                 if(na.length == temp_indices.length) {
                     for(let i = 0; i < temp_indices.length; i++) {
                         if(na[i].length < interval.length) {
-                            // console.log("interval len: "+interval.length);
-                            // console.log(interval[0]);
                             let el = interval[0];
                             let elInx = allChildren.indexOf(el);
                             allChildren.splice(elInx, 1);
-                            // console.log();
                             maintab.removeChild(el);
                         }
                         interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
@@ -179,8 +167,20 @@ setInterval(() => {
                     console.log(na.length + "       " + temp_indices.length);
                     if(na.length-1 == temp_indices.length) {
                         console.log(temp_indices);
+                        //get the index of the trip with only length of 1
+                        //delete the trip + divider
+                        let index;
+                        for(let i = 0; i < na.length; i++) {
+                            if(na[i].length == 1) {
+                                na.shift();
+                                temp_indices.shift();
+                                allChildrens.splice();
+                            }
+                        }
                     }
                 }
+
+                count++;
             }
         });
     });
