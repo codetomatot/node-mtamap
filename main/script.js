@@ -104,15 +104,6 @@ setInterval(() => {
 
             if(data[key].length < 10) {
                 keyholder.push(data[key]);
-
-                //data[key] = array of objects: [{...}, {...}]
-                //data[key][i] = object of values {trainid, arrival, location, name}...
-                //idtp is object.
-                //looping looks like: [0,1][0,1,2,3][0,1,2]... because of every length of data[key] for every key can be different.
-                //idtp[i] will not work because the querySelectorAll returns them all in one nodelist with a constant incremental.
-                //  solution? -> convert idtp to a 2d array so ([pid.1, pid.2], [pid.3,pid.4,pid.5]...) so that the lengths of each data key corresponds to the lengths of each array of pids.
-
-                //convert here
                 for(let i = 0; i < data[key].length; i++) {
                     modArr.push(i);
                 }
@@ -130,19 +121,19 @@ setInterval(() => {
                     console.log(idsToFill);
                     for(let i = 0; i < idsToFill.length; i++) {
                         if(idsToFill[i].length == na[i].length) {
-                            for(let j = 0; j < idsToFill[i].length; j++) {
-                                idsToFill[i][j].innerText = "new value : "+ data[key][j].trainId;
-                            }
+                            console.log("idstofill[i] is same as na[i] in length");
+                            // for(let j = 0; j < idsToFill[i].length; j++) {
+                            //     // idsToFill[i][j].innerText = "new value : "+ data[key][i].trainId;
+                            //     console.log(data[key]);
+                            // }
                         } else if(na[i].length > idsToFill[i].length) {
+                            console.log("na is grater than ids");
                             idsToFill = spliceArray(idtp, na);
                         }
                     }
                 } else {
                     console.log("so far not good");
                 }
-                // console.log(idsToFill)
-                //na = [[0,1],[0,1,2,3],[0,1,2]...]
-                //keyholder= [ [{}, {}], [{}, {}, {}, {}], [{}, {}, {]}] ...]
 
 
                 // let allnodes = removeDivide();
@@ -161,20 +152,18 @@ setInterval(() => {
                             allChildren.splice(elInx, 1);
                             maintab.removeChild(el);
                         }
-                        interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
-                    }
-                } else { //handle ending trips here
-                    console.log(na.length + "       " + temp_indices.length);
-                    if(na.length < temp_indices.length) {
-                        //find the index of the trip that is the same as the index of the interval??
-                        temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
-                        console.log(temp_indices);
-                        let index;
-                        for(let i = 0; i < na.length; i++) {
+                        if(na.length < temp_indices.length || na[i].length > interval.length) {
+                            //find the index of the trip that is the same as the index of the interval??
+                            temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
+                            console.log(temp_indices);
                             if(interval.length == 1 && na[i].length > interval.length) {
-                                console.log("interval: " + interval);
+                                console.log(interval);
+                            } else {
+                                console.log("interval.length = "+interval.length);
+                                console.log("na[i].length ??? = " + na[i].length);
                             }
                         }
+                        interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
                     }
                 }
 
