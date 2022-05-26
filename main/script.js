@@ -165,16 +165,14 @@ setInterval(() => {
                     }
                 } else { //handle ending trips here
                     console.log(na.length + "       " + temp_indices.length);
-                    if(na.length-1 == temp_indices.length) {
+                    if(na.length < temp_indices.length) {
+                        //find the index of the trip that is the same as the index of the interval??
+                        temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
                         console.log(temp_indices);
-                        //get the index of the trip with only length of 1
-                        //delete the trip + divider
                         let index;
                         for(let i = 0; i < na.length; i++) {
-                            if(na[i].length == 1) {
-                                na.shift();
-                                temp_indices.shift();
-                                allChildrens.splice();
+                            if(interval.length == 1 && na[i].length > interval.length) {
+                                console.log("interval: " + interval);
                             }
                         }
                     }
