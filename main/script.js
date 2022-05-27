@@ -117,8 +117,8 @@ setInterval(() => {
                 //start changing text content
                 let idsToFill = spliceArray(idtp, na);
                 if(idsToFill.length === na.length) {
-                    console.log(na);
-                    console.log(idsToFill);
+                    // console.log(na);
+                    // console.log(idsToFill);
                     for(let i = 0; i < idsToFill.length; i++) {
                         if(idsToFill[i].length == na[i].length) {
                             console.log("idstofill[i] is same as na[i] in length");
@@ -143,30 +143,30 @@ setInterval(() => {
                 let allChildren = [...maintab.children];
                 allChildren.shift();
                 let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
+
+                //intervals of stops between next stop and last stop, inclusive
+                let intervals = [];
                 let interval = allChildren.slice(0, temp_indices[0]); 
-                if(na.length == temp_indices.length) {
-                    for(let i = 0; i < temp_indices.length; i++) {
-                        if(na[i].length < interval.length) {
-                            let el = interval[0];
-                            let elInx = allChildren.indexOf(el);
-                            allChildren.splice(elInx, 1);
-                            maintab.removeChild(el);
-                        }
-                        if(na.length < temp_indices.length || na[i].length > interval.length) {
-                            //find the index of the trip that is the same as the index of the interval??
-                            temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
-                            console.log(temp_indices);
-                            if(interval.length == 1 && na[i].length > interval.length) {
-                                console.log(interval);
-                            } else {
-                                console.log("interval.length = "+interval.length);
-                                console.log("na[i].length ??? = " + na[i].length);
-                            }
-                        }
-                        interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
-                    }
+                for(let i = 0; i < na.length; i++) {
+                    intervals.push(interval);
+                    interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
                 }
 
+                if(na.length == intervals.length) {
+                    console.log(intervals);
+                    console.log(na);
+                    for(let i = 0; i < intervals.length; i++) {
+                        if(na[i].length , intervals[i].length) {
+                            let erased = intervals[i].shift();
+                            console.log(erased);
+                            if(na[i].length > intervals[i].length) {
+                                intervals[i].splice(0, 0, erased);
+                                intervals[i].join();
+                            }
+                        }
+                        console.log("////////////////////////////////////////////////");
+                    }
+                }
                 count++;
             }
         });
