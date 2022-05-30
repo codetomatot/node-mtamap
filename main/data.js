@@ -44,7 +44,7 @@ function getData(dataIds, dataLocs, dataNames) {
                 var datajson = {
                   'trainId': en.tripUpdate.trip.tripId,
                   'arrival': convertFromPOSIX(en.tripUpdate.stopTimeUpdate[i].arrival.time),
-                  'stopId': dataIds.filter(function(id) {return id.includes(en.tripUpdate.stopTimeUpdate[i].stopId);}),
+                  'stopId': dataIds.filter(function(id) {return id.includes(en.tripUpdate.stopTimeUpdate[i].stopId)}),
                   'stop_location': dataFilter(dataLocs, dataIds, en.tripUpdate.stopTimeUpdate[i].stopId),
                   'stop_name': dataFilter(dataNames, dataIds, en.tripUpdate.stopTimeUpdate[i].stopId),
                 }
@@ -64,6 +64,7 @@ async function dataCB(data) {
     'method': 'POST',
     'headers': {
       'Access-Control-Allow-Origin': 'http://localhost:8080/',
+      'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
     'body': JSON.stringify(data, null, 2)

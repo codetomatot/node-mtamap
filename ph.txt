@@ -1,3 +1,11 @@
+let idtp = [...document.querySelectorAll(".pid")];
+            let stoptp = document.getElementsByClassName("stop");
+            let timetp = document.getElementsByClassName("time");
+
+            let modArr = [];
+        var na = [];
+        let keyholder = [];
+
 keyholder.push(data[key]);
                 for(let i = 0; i < data[key].length; i++) {
                     modArr.push(i);
@@ -64,3 +72,43 @@ keyholder.push(data[key]);
                         console.log("ttda: "+ttda.length + " != " + "intervals: " + intervals.length);
                     }
                 }
+
+
+const countOccur = (arr, value) => {
+    return arr.reduce((a, val) => (val === value ? a + 1 : a), 0);
+}
+function spliceArray(idtp, na) {
+    let spliced = [];
+    for(let j = 0; j < na.length; j++) {
+        spliced.push(idtp.splice(0, na[j].length)); 
+    }
+    return spliced;
+} 
+
+function removeDivide() {
+    let top = document.getElementById("placehold");
+    let dividers = [...document.querySelectorAll(".divide")];
+    let allChildren = [...maintab.children];
+    allChildren.shift();
+    
+    let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
+    const removeItem = (items, i) => items.slice(0, i-1).concat(items.slice(i, items.length));
+
+    let init = removeItem(allChildren, temp_indices[0]+1);
+    while(temp_indices.length != 0) {
+        temp_indices.shift();
+        temp_indices = temp_indices.map(val => val -= 1);
+        init = removeItem(init, temp_indices[0]+1);
+    }
+    return init;
+}
+function resetIntervals(temp_indices, na, allChildren) {
+    //intervals of stops between next stop and last stop, inclusive
+    let intervals = [];
+    let interval = allChildren.slice(0, temp_indices[0]); 
+    for(let i = 0; i < na.length; i++) {
+        intervals.push(interval);
+        interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
+    }
+    return intervals;
+}

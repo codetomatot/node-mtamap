@@ -95,6 +95,7 @@ function resetIntervals(temp_indices, na, allChildren) {
     return intervals;
 }
 
+
 setInterval(() => {
     console.log(dbundle._ot009);
     let dat = finalRequest();
@@ -102,22 +103,78 @@ setInterval(() => {
     dat.then((data) => {
         var na = [];
         let keyholder = [];
-
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
-            let divides = document.querySelectorAll(".divide");
+            let i_d_d = Array.from(i_d);
+            // let divides = document.querySelectorAll(".divide");
             let idtp = [...document.querySelectorAll(".pid")];
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
-
-            let modArr = [];
-
             if(data[key].length < 10) {
-                i_d.forEach((id) => id.remove());
-                divides.forEach((divide) => divide.remove());
-                count++;
+                let modArr = [];
+                keyholder.push(data[key]);
+                for(let i = 0; i < data[key].length; i++) {
+                    modArr.push(i);
+                }
+                modArr.push("Q"); //extra end value for functionality
+
+                let index = modArr.indexOf(0);
+                for(let i = 0; i < countOccur(modArr, 0); i++) {
+                    na.push(modArr.slice(index, modArr.indexOf(0,index+1)));
+                    index = modArr.indexOf(0, index+1);
+                }
+                //start changing text content
+                // let idsToFill = spliceArray(idtp, na);
+                // if(idsToFill.length === na.length) {
+                //     // console.log(na);
+                //     // console.log(idsToFill);
+                //     for(let i = 0; i < idsToFill.length; i++) {
+                //         if(idsToFill[i].length == na[i].length) {
+                //             console.log("idstofill[i] is same as na[i] in length");
+                //             // for(let j = 0; j < idsToFill[i].length; j++) {
+                //             //     // idsToFill[i][j].innerText = "new value : "+ data[key][i].trainId;
+                //             //     console.log(data[key]);
+                //             // }
+                //         } else if(na[i].length > idsToFill[i].length) {
+                //             console.log("na is grater than ids");
+                //             idsToFill = spliceArray(idtp, na);
+                //         }
+                //     }
+                // } else {
+                //     console.log("so far not good");
+                // }
+
+
+                // let allnodes = removeDivide();
+
+                let dividers = [...document.querySelectorAll(".divide")];
+                let allChildren = [...maintab.children];
+                allChildren.shift();
+                let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
+
+                if(na.length == temp_indices.length && keyholder.length) {
+                    let ttda = spliceArray(i_d_d, na);
+                    let intervals = resetIntervals(temp_indices, na, allChildren);
+
+                    if(keyholder.length == intervals.length) {
+                        for(let i = 0; i < intervals.length; i++) {
+                            if(keyholder[i].length < intervals[i].length) {
+                                let diff = intervals[i].length - keyholder[i].length;
+                                if(diff == 1) {
+                                    let tr = intervals[i].shift();
+                                    console.log(keyholder[i]);
+                                    console.log(intervals[i]);
+                                    maintab.removeChild(tr);
+                                }
+                            }
+                            // if(na[i] > intervals[i]) ... ended trip
+                            console.log("/////////////////////////////////////////");
+                        }
+                    } else {
+                        console.log("ttda: "+ttda.length + " != " + "intervals: " + intervals.length);
+                    }
+                }
             }
         });
     });
-    toStart_toRecover();
 }, 15000);

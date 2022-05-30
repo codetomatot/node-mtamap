@@ -62,6 +62,7 @@ async function dataCB(data) {
     'method': 'POST',
     'headers': {
       'Access-Control-Allow-Origin': 'http://localhost:8080/',
+      'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
     'body': JSON.stringify(data, null, 2)
