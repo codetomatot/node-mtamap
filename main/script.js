@@ -84,6 +84,16 @@ function removeDivide() {
     }
     return init;
 }
+function resetIntervals(temp_indices, na, allChildren) {
+    //intervals of stops between next stop and last stop, inclusive
+    let intervals = [];
+    let interval = allChildren.slice(0, temp_indices[0]); 
+    for(let i = 0; i < na.length; i++) {
+        intervals.push(interval);
+        interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
+    }
+    return intervals;
+}
 
 setInterval(() => {
     console.log(dbundle._ot009);
@@ -95,7 +105,7 @@ setInterval(() => {
 
         Object.keys(data).map((key, index) => {
             let i_d = document.querySelectorAll("#card");
-            let divides = document.querySelectorAll(".divider");
+            let divides = document.querySelectorAll(".divide");
             let idtp = [...document.querySelectorAll(".pid")];
             let stoptp = document.getElementsByClassName("stop");
             let timetp = document.getElementsByClassName("time");
@@ -103,72 +113,11 @@ setInterval(() => {
             let modArr = [];
 
             if(data[key].length < 10) {
-                keyholder.push(data[key]);
-                for(let i = 0; i < data[key].length; i++) {
-                    modArr.push(i);
-                }
-                modArr.push("Q"); //extra end value for functionality
-
-                let index = modArr.indexOf(0);
-                for(let i = 0; i < countOccur(modArr, 0); i++) {
-                    na.push(modArr.slice(index, modArr.indexOf(0,index+1)));
-                    index = modArr.indexOf(0, index+1);
-                }
-                //start changing text content
-                let idsToFill = spliceArray(idtp, na);
-                if(idsToFill.length === na.length) {
-                    // console.log(na);
-                    // console.log(idsToFill);
-                    for(let i = 0; i < idsToFill.length; i++) {
-                        if(idsToFill[i].length == na[i].length) {
-                            console.log("idstofill[i] is same as na[i] in length");
-                            // for(let j = 0; j < idsToFill[i].length; j++) {
-                            //     // idsToFill[i][j].innerText = "new value : "+ data[key][i].trainId;
-                            //     console.log(data[key]);
-                            // }
-                        } else if(na[i].length > idsToFill[i].length) {
-                            console.log("na is grater than ids");
-                            idsToFill = spliceArray(idtp, na);
-                        }
-                    }
-                } else {
-                    console.log("so far not good");
-                }
-
-
-                // let allnodes = removeDivide();
-                // let ttda = spliceArray(allnodes, na);
-
-                let dividers = [...document.querySelectorAll(".divide")];
-                let allChildren = [...maintab.children];
-                allChildren.shift();
-                let temp_indices = dividers.map((divider) => allChildren.indexOf(divider));
-
-                //intervals of stops between next stop and last stop, inclusive
-                let intervals = [];
-                let interval = allChildren.slice(0, temp_indices[0]); 
-                for(let i = 0; i < na.length; i++) {
-                    intervals.push(interval);
-                    interval = allChildren.slice(temp_indices[i]+1, temp_indices[i+1]);
-                }
-
-                if(na.length == intervals.length) {
-                    console.log(intervals);
-                    console.log(na);
-                    for(let i = 0; i < intervals.length; i++) {
-                        if(na[i].length , intervals[i].length) {
-                            let erased = intervals[i].shift();
-                            console.log(erased);
-                            if(na[i].length > intervals[i].length) {
-                                intervals[i].splice(0, 0, erased);
-                                intervals[i].join();
-                            }
-                        }
-                        console.log("////////////////////////////////////////////////");
-                    }
-                }
+                i_d.forEach((id) => id.remove());
+                divides.forEach((divide) => divide.remove());
                 count++;
             }
         });
     });
+    toStart_toRecover();
 }, 15000);
