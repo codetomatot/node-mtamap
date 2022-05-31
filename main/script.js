@@ -49,9 +49,27 @@ fcall.then((data) => {
         divider.className = "divide";
         maintab.appendChild(divider);
     });
+    viewTrip();
 });
 
 //
+const trip = document.getElementById("detail-view");
+const btn = document.getElementById("toclose");
+trip.style.backgroundColor = `rgb(${1+Math.random()*255}, ${1+Math.random()*255}, ${1+Math.random()*255})`;
+trip.style.visibility = 'hidden';
+
+function viewTrip() {
+    var pids = [...document.querySelectorAll(".pid")];
+    pids.forEach((pid) => {
+        pid.addEventListener("click", () => {
+            trip.style.visibility = 'visible';
+        })
+    })
+}
+btn.addEventListener('click', () => {
+    trip.style.visibility = 'hidden';
+});
+
 
 //
 

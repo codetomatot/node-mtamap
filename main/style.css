@@ -60,7 +60,9 @@ body {
 }
 
 .trip-particularities {
-    height: 700px;
-    width: 430px;
-    background-color: rgb(123, 77, 77);
+    height: 720px;
+    width: 450px;
+    position: absolute;
+    top: 0;
+    left: 70%;
 }
