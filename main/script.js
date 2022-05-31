@@ -37,6 +37,11 @@ const toMainHtml = (data, count) => {
                 <p class="stop t${count.toString()}s">${data[0].stop_name} -> ${data[data.length-1].stop_name}</p>
             </div>`
 }
+const tripDetailsHtml = () => {
+    return `<div class="card">
+                <p>new value</p>
+            </div>`
+}
 
 let fcall = finalRequest();
 let counter = 0;
@@ -61,15 +66,17 @@ trip.style.visibility = 'hidden';
 function viewTrip() {
     var pids = [...document.querySelectorAll(".pid")];
     pids.forEach((pid) => {
-        pid.addEventListener("click", () => {
+        pid.addEventListener("click", (event) => {
+            event.preventDefault();
             trip.style.visibility = 'visible';
+            trip.innerHTML += tripDetailsHtml();
         })
-    })
+    });
+    // btn.addEventListener('click', () => {
+    //     trip.style.visibility = 'hidden';
+    // });
+    //insertadjacenthtml
 }
-btn.addEventListener('click', () => {
-    trip.style.visibility = 'hidden';
-});
-
 
 //
 
