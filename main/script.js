@@ -38,30 +38,33 @@ const toMainHtml = (data, count) => {
             </div>`
 }
 
-function toStart_toRecover() {
-    let fcall = finalRequest();
-    let counter = 0;
-    fcall.then((data) => {
-        let len = Object.keys(data).length;
-        Object.keys(data).map((key, index) => {
-            maintab.innerHTML += toMainHtml(data[key], counter);
-            counter++;
-            const divider = document.createElement("div");
-            divider.className = "divide";
-            maintab.appendChild(divider);
-        });
+let fcall = finalRequest();
+let counter = 0;
+fcall.then((data) => {
+    let len = Object.keys(data).length;
+    Object.keys(data).map((key, index) => {
+        maintab.innerHTML += toMainHtml(data[key], counter);
+        counter++;
+        const divider = document.createElement("div");
+        divider.className = "divide";
+        maintab.appendChild(divider);
     });
-}
-toStart_toRecover();
+});
+
+//
+
+//
 
 setInterval(() => {
     let ncall = finalRequest();
     let currentCount = 0;
     ncall.then((data) => {
         Object.keys(data).map((key, index) => {
-            let cpid = document.querySelector(`.t${currentCount.toString()}s`);
-            if(cpid != null) {
-                cpid.innerText = data[key][0].stop_name + " -> " + data[key][data[key].length-1].stop_name;
+            let cpid = document.querySelector(`.t${currentCount.toString()}p`);
+            let cstop = document.querySelector(`.t${currentCount.toString()}s`);
+            if(cpid != null && cstop != null) {
+                cpid.innerText = data[key][0].trainId;
+                cstop.innerText = data[key][0].stop_name + " -> " + data[key][data[key].length-1].stop_name;
             }
             currentCount++;
         })

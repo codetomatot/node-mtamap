@@ -58,3 +58,9 @@ body {
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
+
+.trip-particularities {
+    height: 700px;
+    width: 430px;
+    background-color: rgb(123, 77, 77);
+}
