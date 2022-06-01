@@ -37,11 +37,6 @@ const toMainHtml = (data, count) => {
                 <p class="stop t${count.toString()}s">${data[0].stop_name} -> ${data[data.length-1].stop_name}</p>
             </div>`
 }
-const tripDetailsHtml = () => {
-    return `<div class="card">
-                <p>new value</p>
-            </div>`
-}
 
 let fcall = finalRequest();
 let counter = 0;
@@ -67,15 +62,25 @@ function viewTrip() {
     var pids = [...document.querySelectorAll(".pid")];
     pids.forEach((pid) => {
         pid.addEventListener("click", (event) => {
-            event.preventDefault();
             trip.style.visibility = 'visible';
-            trip.innerHTML += tripDetailsHtml();
+            trip.style.left = "70%";
+            trip.style.transition = "1.2s ease";
         })
     });
-    // btn.addEventListener('click', () => {
-    //     trip.style.visibility = 'hidden';
-    // });
-    //insertadjacenthtml
+    btn.onclick = function() {
+        trip.style.left = "150%";
+        trip.style.transition = '2s ease';
+        trip.style.visibility = 'hidden';
+    }
+    const newCard = document.createElement('div');
+    newCard.innerHTML = `<div class="card">
+                            <p>new value</p>
+                            <p>new value</p>
+                            <p>new value</p>
+                         </div>`;
+    while(newCard.firstChild) {
+        trip.appendChild(newCard.firstChild);
+    }
 }
 
 //
