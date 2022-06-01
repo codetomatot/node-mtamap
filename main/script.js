@@ -49,7 +49,7 @@ fcall.then((data) => {
         divider.className = "divide";
         maintab.appendChild(divider);
     });
-    viewTrip();
+    viewTrip(data);
 });
 
 //
@@ -58,13 +58,17 @@ const btn = document.getElementById("toclose");
 trip.style.backgroundColor = `rgb(${1+Math.random()*255}, ${1+Math.random()*255}, ${1+Math.random()*255})`;
 trip.style.visibility = 'hidden';
 
-function viewTrip() {
+function viewTrip(data) {
     var pids = [...document.querySelectorAll(".pid")];
+    let idToGet;
     pids.forEach((pid) => {
         pid.addEventListener("click", (event) => {
             trip.style.visibility = 'visible';
             trip.style.left = "70%";
             trip.style.transition = "1.2s ease";
+
+            idToGet = pid.textContent;
+            callback(idToGet);
         })
     });
     btn.onclick = function() {
@@ -72,12 +76,24 @@ function viewTrip() {
         trip.style.transition = '2s ease';
         trip.style.visibility = 'hidden';
     }
+
     const newCard = document.createElement('div');
-    newCard.innerHTML = `<div class="card">
-                            <p>new value</p>
-                            <p>new value</p>
-                            <p>new value</p>
-                         </div>`;
+    function callback(idToGet) {
+        Object.keys(data).map((key, index) => {
+            for(let i = 0; i < data[key].length; i++) {
+                if(data[key][i].trainId == idToGet) {
+                    newCard.innerHTML = 
+                    `<div class="card">
+                        <p>${idToGet}</p>
+                        <p>new value</p>
+                        <p>new value</p>
+                    </div>`;
+                } else {
+                    console.log(data[key][i].trainId);
+                }
+            }
+        })
+    }
     while(newCard.firstChild) {
         trip.appendChild(newCard.firstChild);
     }
