@@ -76,26 +76,28 @@ function viewTrip(data) {
             trip.style.transition = "1.2s ease";
 
             obj.cid = pid.textContent;
+
+            Object.keys(data).map((key, index) => {
+                if(key == obj.clickedId) {
+                    console.log(data[obj.clickedId]);
+                    for(let i = 0; i < data[obj.clickedId].length; i++) {
+                        const newCard = document.createElement('div');
+                        newCard.className = "card-holder";
+                        newCard.innerHTML = `<div class="card"><p>${obj.clickedId}</p></div>`;
+                        trip.appendChild(newCard);
+                    }
+                }
+            });
+            btn.onclick = function() {
+                let allCards = document.querySelectorAll(".card-holder");
+                allCards.forEach(card => trip.removeChild(card));
+
+                trip.style.left = "150%";
+                trip.style.transition = '2s ease';
+                trip.style.visibility = 'hidden';
+            }
         })
     });
-    btn.onclick = function() {
-        trip.style.left = "150%";
-        trip.style.transition = '2s ease';
-        trip.style.visibility = 'hidden';
-    }
-    let isSet = false;
-    let fv = setInterval(() => {
-        if(obj.clickedId != '') {
-            isSet = true;
-        } else {
-            console.log("please click to get value");
-        }
-        ///
-        if(isSet == true) {
-            console.log(obj.selectedId);
-            clearInterval(fv);
-        }
-    }, 1000);
 }
 
 setInterval(() => {
@@ -110,7 +112,8 @@ setInterval(() => {
                 cstop.innerText = data[key][0].stop_name + " -> " + data[key][data[key].length-1].stop_name;
             }
             currentCount++;
-        })
-    })
+        });
+    });
+
 }, 15000);
 
