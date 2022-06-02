@@ -77,23 +77,32 @@ function viewTrip(data) {
 
             obj.cid = pid.textContent;
 
-            Object.keys(data).map((key, index) => {
-                if(key == obj.clickedId) {
-                    console.log(data[obj.clickedId]);
+            Object.keys(data).map((key,index) => {
+                if(obj.clickedId != '' && key == obj.clickedId) {
                     for(let i = 0; i < data[obj.clickedId].length; i++) {
                         const newCard = document.createElement('div');
+                        const pid = document.createElement('p');
+                        const pstop = document.createElement('p');
+                        const ptime = document.createElement('p');
+
+                        pid.innerText = obj.clickedId;
+                        pstop.innerText = data[obj.clickedId][i].stop_name;
+                        ptime.innerText = data[obj.clickedId][i].arrival;
+
+                        pid.className = "pid"; pstop.className = "stop"; ptime.className = "a-time";
+
+                        newCard.appendChild(pid);
+                        newCard.appendChild(pstop);
+                        newCard.appendChild(ptime);
+
                         newCard.className = "card-holder";
-                        newCard.innerHTML = `<div class="card">
-                                                <p>${obj.clickedId}</p>
-                                                <p>${data[obj.clickedId][i].stop_name}</p>
-                                                ${setInterval(() => {
-                                                }, 5000)}
-                                                <p>${data[obj.clickedId][i].arrival}</p>
-                                            </div>`;
+
                         trip.appendChild(newCard);
+
                     }
                 }
-            });
+            })
+
             btn.onclick = function() {
                 let allCards = document.querySelectorAll(".card-holder");
                 allCards.forEach(card => trip.removeChild(card));
@@ -110,6 +119,7 @@ setInterval(() => {
     let ncall = finalRequest();
     let currentCount = 0;
     ncall.then((data) => {
+        // console.log(data[obj.clickedId]);
         Object.keys(data).map((key, index) => {
             let cpid = document.querySelector(`.t${currentCount.toString()}p`);
             let cstop = document.querySelector(`.t${currentCount.toString()}s`);
@@ -117,9 +127,41 @@ setInterval(() => {
                 cpid.innerText = data[key][0].trainId;
                 cstop.innerText = data[key][0].stop_name + " -> " + data[key][data[key].length-1].stop_name;
             }
+
+            let pids = document.querySelectorAll(".pid");
+            let pstops = document.querySelectorAll(".stop");
+            let ptimes = document.querySelectorAll(".a-time");
+            let anotp = trip.children;
+            if(obj.clickedId != '' && key == obj.clickedId) {
+                console.log(data[obj.clickedId]);
+                for(let i = 0; i < data[obj.clickedId].length; i++) {
+                    pids[i].innerText = data[obj.clickedId][i].trainId;
+                    pstops[i].innerText = data[obj.clickedId][i].stop_name;
+                    ptimes[i].innerText = data[obj.clickedId][i].arrival;
+                    if(data[obj.clickedId].length < (anotp.length-1)) {
+                        trip.removeChild(anotp[1]);
+                        pids[i].innerText = data[obj.clickedId][i].trainId;
+                        pstops[i].innerText = data[obj.clickedId][i].stop_name;
+                        ptimes[i].innerText = data[obj.clickedId][i].arrival;
+                        console.log("changes made???");
+                    }
+                }
+                if(data[obj.clickedId] == undefined || data[obj.clickedId] == null) {
+                    trip.removeChild(anotp[anotp.length-1]);
+                    const doneCard = document.createElement("div");
+                    doneCard.className = "error-end-card";
+                    const doneMsg = document.createElement("p");
+                    doneMsg.innerText = "Trip has ended";
+                    doneCard.appendChild(doneMsg);
+                    trip.appendChild(doneCard);
+                } else {
+                    console.log(data[obj.clickedId]);
+                }
+            }
+
             currentCount++;
         });
+        // viewTrip(data);
     });
 
 }, 15000);
-
