@@ -83,7 +83,13 @@ function viewTrip(data) {
                     for(let i = 0; i < data[obj.clickedId].length; i++) {
                         const newCard = document.createElement('div');
                         newCard.className = "card-holder";
-                        newCard.innerHTML = `<div class="card"><p>${obj.clickedId}</p></div>`;
+                        newCard.innerHTML = `<div class="card">
+                                                <p>${obj.clickedId}</p>
+                                                <p>${data[obj.clickedId][i].stop_name}</p>
+                                                ${setInterval(() => {
+                                                }, 5000)}
+                                                <p>${data[obj.clickedId][i].arrival}</p>
+                                            </div>`;
                         trip.appendChild(newCard);
                     }
                 }
