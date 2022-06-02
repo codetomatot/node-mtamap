@@ -65,4 +65,5 @@ body {
     position: absolute;
     top: 0;
     left: 150%;
+    overflow: scroll;
 }

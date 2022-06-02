@@ -52,23 +52,30 @@ fcall.then((data) => {
     viewTrip(data);
 });
 
-//
 const trip = document.getElementById("detail-view");
 const btn = document.getElementById("toclose");
 trip.style.backgroundColor = `rgb(${1+Math.random()*255}, ${1+Math.random()*255}, ${1+Math.random()*255})`;
 trip.style.visibility = 'hidden';
 
+let obj = {
+    clickedId: '',
+    get selectedId() {
+        return this.clickedId;
+    },
+    set cid(toID) {
+        return this.clickedId = toID;
+    }
+}
+
 function viewTrip(data) {
     var pids = [...document.querySelectorAll(".pid")];
-    let idToGet;
     pids.forEach((pid) => {
         pid.addEventListener("click", (event) => {
             trip.style.visibility = 'visible';
             trip.style.left = "70%";
             trip.style.transition = "1.2s ease";
 
-            idToGet = pid.textContent;
-            callback(idToGet);
+            obj.cid = pid.textContent;
         })
     });
     btn.onclick = function() {
@@ -76,30 +83,20 @@ function viewTrip(data) {
         trip.style.transition = '2s ease';
         trip.style.visibility = 'hidden';
     }
-
-    const newCard = document.createElement('div');
-    function callback(idToGet) {
-        Object.keys(data).map((key, index) => {
-            for(let i = 0; i < data[key].length; i++) {
-                if(data[key][i].trainId == idToGet) {
-                    newCard.innerHTML = 
-                    `<div class="card">
-                        <p>${idToGet}</p>
-                        <p>new value</p>
-                        <p>new value</p>
-                    </div>`;
-                } else {
-                    console.log(data[key][i].trainId);
-                }
-            }
-        })
-    }
-    while(newCard.firstChild) {
-        trip.appendChild(newCard.firstChild);
-    }
+    let isSet = false;
+    let fv = setInterval(() => {
+        if(obj.clickedId != '') {
+            isSet = true;
+        } else {
+            console.log("please click to get value");
+        }
+        ///
+        if(isSet == true) {
+            console.log(obj.selectedId);
+            clearInterval(fv);
+        }
+    }, 1000);
 }
-
-//
 
 setInterval(() => {
     let ncall = finalRequest();
@@ -116,3 +113,4 @@ setInterval(() => {
         })
     })
 }, 15000);
+
