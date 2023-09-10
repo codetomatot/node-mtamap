@@ -21,7 +21,7 @@ var requestSettings = {
   method: 'GET',
   url: 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-nqrw',
   headers: {
-      'x-api-key': 'SPukOTiP7c5WMUbp0IVc5YPubN5CPI4jC78bRue0',
+      'x-api-key': '',
   },
   encoding: null
 };
