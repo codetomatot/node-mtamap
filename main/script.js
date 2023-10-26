@@ -165,3 +165,5 @@ setInterval(() => {
     });
 
 }, 15000);
+
+//data.js is rendered by browserify
